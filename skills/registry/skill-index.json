@@ -215,6 +215,14 @@
       "type": "procedural"
     },
     {
+      "name": "vibe-polish",
+      "description": "Polish existing vibe-website and vibe-app projects with critical fixes, subtle purposeful animations, and portfolio-ready refinements. Surgical edits only.",
+      "path": "skills/_coding/vibe-polish/SKILL.md",
+      "keywords": ["polish", "refine", "cleanup", "fix bugs", "add animations", "portfolio polish", "micro-interactions", "hover effects", "scroll animations"],
+      "category": "coding",
+      "type": "procedural"
+    },
+    {
       "name": "code-prompt-builder",
       "description": "Build complex app prompts (CRM, dashboards) in compressed code-like format.",
       "path": "skills/_prompts/code-prompt-builder/SKILL.md",
