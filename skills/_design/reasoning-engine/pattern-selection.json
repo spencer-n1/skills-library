@@ -1,0 +1,132 @@
+{
+  "navs": {
+    "simple-sticky-phone": {
+      "best_for": ["home-services", "emergency-services", "trades"],
+      "avoid_for": ["luxury", "creative", "saas"],
+      "description": "Sticky nav with phone number always visible. Clean, no animation."
+    },
+    "centered-logo-curved-tagline": {
+      "best_for": ["law", "premium-services", "established-businesses"],
+      "avoid_for": ["modern-saas", "startups", "casual-brands"],
+      "description": "Logo centered with elegant curved tagline. Trustworthy, established feel."
+    },
+    "blurred-background-gradient-text": {
+      "best_for": ["saas", "creative", "modern-brands"],
+      "avoid_for": ["conservative", "elderly-audiences", "trades"],
+      "description": "Glassmorphism nav with blurred background and gradient text effects."
+    },
+    "split-nav-emergency-badge": {
+      "best_for": ["emergency-services", "home-services"],
+      "avoid_for": ["wellness", "luxury", "creative"],
+      "description": "Split layout with emergency availability badge or urgent CTA."
+    }
+  },
+  "heroes": {
+    "full-bleed-gradient-overlay": {
+      "best_for": ["home-services", "luxury", "real-estate", "established-businesses"],
+      "avoid_for": ["saas", "mobile-first", "fast-conversion"],
+      "description": "Full viewport image with gradient overlay fading to theme color. Immersive."
+    },
+    "full-clean-image": {
+      "best_for": ["law", "healthcare", "premium-services", "portfolio"],
+      "avoid_for": ["budget-brands", "cluttered-visual-identity"],
+      "description": "Clean full-bleed image with minimal overlay. Professional and premium."
+    },
+    "gradient-text-dark": {
+      "best_for": ["modern-saas", "creative", "personal-injury", "younger-audiences"],
+      "avoid_for": ["conservative", "elderly", "traditional-businesses"],
+      "description": "Bold gradient text on dark background. Modern, attention-grabbing."
+    },
+    "mixed-typography": {
+      "best_for": ["creative", "portfolio", "fashion", "editorial"],
+      "avoid_for": ["home-services", "emergency", "saas"],
+      "description": "Serif and sans-serif combined for visual interest. Editorial feel."
+    },
+    "split-with-form": {
+      "best_for": ["home-services", "saas", "consulting", "lead-generation"],
+      "avoid_for": ["portfolio", "creative", "restaurants"],
+      "description": "Headline left, contact form right. Immediate lead capture."
+    }
+  },
+  "sections": {
+    "stats-bar": {
+      "best_for": ["home-services", "trades", "legal", "healthcare", "established-businesses"],
+      "avoid_for": ["startups-without-history", "portfolio", "creative"],
+      "description": "Horizontal bar with key stats (years, satisfaction, availability)."
+    },
+    "services-3-card": {
+      "best_for": ["all-service-businesses", "home-services", "legal", "healthcare", "beauty"],
+      "avoid_for": ["saas-feature-pages", "ecommerce"],
+      "description": "3 equal cards showing core services. Icon, title, 1-line description."
+    },
+    "why-choose-us-professional": {
+      "best_for": ["home-services", "legal", "healthcare", "trades"],
+      "avoid_for": ["portfolio", "creative", "fashion"],
+      "description": "Trust-focused section with credentials, guarantees, differentiators."
+    },
+    "process-numbered-cards": {
+      "best_for": ["legal", "consulting", "home-services", "healthcare"],
+      "avoid_for": ["restaurants", "ecommerce", "simple-products"],
+      "description": "Numbered steps showing client process or workflow."
+    },
+    "reviews-carousel": {
+      "best_for": ["all-local-businesses", "home-services", "healthcare", "beauty", "restaurants"],
+      "avoid_for": ["portfolio", "creative-without-clients-yet"],
+      "description": "Carousel or grid of customer testimonials with star ratings."
+    },
+    "baker-group-process": {
+      "best_for": ["creative-agencies", "design-studios", "consulting"],
+      "avoid_for": ["home-services", "emergency", "simple-retail"],
+      "description": "Visual process section with grouped steps and iconography."
+    },
+    "contact-preference-card": {
+      "best_for": ["home-services", "healthcare", "professional-services"],
+      "avoid_for": ["saas", "ecommerce"],
+      "description": "Card showing multiple contact options (call, text, form, chat)."
+    },
+    "layered-image-card": {
+      "best_for": ["portfolio", "creative", "real-estate", "luxury"],
+      "avoid_for": ["emergency", "fast-conversion", "budget"],
+      "description": "Images with layered depth effect. Premium and visual."
+    },
+    "stats-bar": {
+      "best_for": ["home-services", "trades", "legal", "healthcare"],
+      "avoid_for": ["startups", "portfolio"],
+      "description": "Trust bar with years, reviews count, satisfaction percentage."
+    },
+    "wave-shape-divider": {
+      "best_for": ["coastal", "wellness", "pools", "lifestyle"],
+      "avoid_for": ["trades", "garage", "industrial", "emergency"],
+      "description": "Soft wave transition between sections. Friendly and approachable."
+    },
+    "final-banner": {
+      "best_for": ["all-service-businesses", "home-services", "legal", "healthcare"],
+      "avoid_for": ["saas", "ecommerce"],
+      "description": "Large CTA banner at bottom of page with prominent phone/button."
+    }
+  },
+  "ctas": {
+    "chat-bubble-floating": {
+      "best_for": ["saas", "ecommerce", "modern-services"],
+      "avoid_for": ["conservative", "legal", "funeral-services"],
+      "description": "Floating chat bubble in bottom-right corner."
+    },
+    "final-banner": {
+      "best_for": ["home-services", "trades", "healthcare", "local-businesses"],
+      "avoid_for": ["saas", "portfolio"],
+      "description": "Full-width banner with large CTA and phone number."
+    },
+    "subtle-inline-banner": {
+      "best_for": ["saas", "blogs", "content-sites"],
+      "avoid_for": ["emergency", "home-services"],
+      "description": "Inline banner that doesn't interrupt flow. Gentle conversion."
+    }
+  },
+  "footers": {
+    "standard-multi-column": {
+      "best_for": ["all-businesses", "home-services", "legal", "healthcare"],
+      "avoid_for": ["minimal-portfolio", "single-page-apps"],
+      "description": "3-4 column footer with links, contact, service areas, social."
+    }
+  }
+}

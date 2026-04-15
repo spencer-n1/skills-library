@@ -1,0 +1,169 @@
+{
+  "categories": {
+    "home-services": {
+      "examples": ["HVAC", "electrician", "plumber", "landscaper", "garage-door", "roofing", "pest-control"],
+      "primary_goal": "emergency calls, quote requests",
+      "recommended_aesthetic": "navy-professional",
+      "alternative_aesthetics": ["dark-emergency-green", "coastal-blue"],
+      "style_keywords": ["trustworthy", "urgent", "local", "professional"],
+      "color_mood": "navy-blue + urgency-orange or red",
+      "typography_mood": "bold-sans",
+      "key_sections": ["stats-bar", "services-3-card", "why-choose-us", "reviews-carousel", "service-area"],
+      "trust_signals": ["licensed-insured", "24-7", "years-experience", "local-owned"],
+      "anti_patterns": ["decorative-waves", "serif-fonts", "pastel-colors", "minimal-content"]
+    },
+    "legal": {
+      "examples": ["law-firm", "attorney", "personal-injury", "family-law", "criminal-defense"],
+      "primary_goal": "consultation booking",
+      "recommended_aesthetic": "navy-gold-conservative",
+      "alternative_aesthetics": ["all-white-light", "charcoal-editorial"],
+      "style_keywords": ["authoritative", "trustworthy", "established", "professional"],
+      "color_mood": "navy + gold or deep green",
+      "typography_mood": "serif-headlines-sans-body",
+      "key_sections": ["why-choose-us", "services-3-card", "process-steps", "reviews-carousel", "stats-bar"],
+      "trust_signals": ["bar-associations", "years-experience", "case-results", "free-consultation"],
+      "anti_patterns": ["aggressive-sales", "neon-colors", "stock-gavels", "all-caps"]
+    },
+    "healthcare": {
+      "examples": ["medical-clinic", "dental", "physical-therapy", "chiropractor", "med-spa"],
+      "primary_goal": "appointment booking",
+      "recommended_aesthetic": "sage-green-healthcare",
+      "alternative_aesthetics": ["all-white-light", "coastal-blue"],
+      "style_keywords": ["calming", "clean", "professional", "healing"],
+      "color_mood": "sage-green + soft-white",
+      "typography_mood": "clean-sans",
+      "key_sections": ["services-3-card", "team-profiles", "reviews-carousel", "insurance-info", "booking-cta"],
+      "trust_signals": ["credentials", "insurance-accepted", "patient-reviews", "years-practicing"],
+      "anti_patterns": ["dark-mode", "urgent-red", " cluttered-layouts", "small-text"]
+    },
+    "beauty-wellness": {
+      "examples": ["beauty-spa", "salon", "massage", "wellness-center", "yoga-studio"],
+      "primary_goal": "appointment booking",
+      "recommended_aesthetic": "soft-pink-sage",
+      "alternative_aesthetics": ["all-white-light", "coastal-blue"],
+      "style_keywords": ["calming", "premium", "organic", "elegant"],
+      "color_mood": "soft-pink + sage-green + gold-accents",
+      "typography_mood": "elegant-serif-headlines",
+      "key_sections": ["hero-full-bleed", "services-3-card", "testimonials", "booking-cta", "gallery"],
+      "trust_signals": ["before-after-photos", "reviews", "certifications", "awards"],
+      "anti_patterns": ["neon-colors", "harsh-animations", "dark-mode", "clinical-cold"]
+    },
+    "restaurant-food": {
+      "examples": ["restaurant", "cafe", "bakery", "food-truck", "catering"],
+      "primary_goal": "reservations, online orders",
+      "recommended_aesthetic": "warm-rustic",
+      "alternative_aesthetics": ["modern-minimal", "vibrant-block"],
+      "style_keywords": ["appetizing", "warm", "inviting", "authentic"],
+      "color_mood": "warm-earth-tones + rich-reds or oranges",
+      "typography_mood": "mix-serif-and-sans",
+      "key_sections": ["hero-image", "menu-preview", "about-story", "reviews", "reservation-cta"],
+      "trust_signals": ["awards", "reviews", "chef-photos", "fresh-ingredients"],
+      "anti_patterns": ["cold-colors", "generic-stock-food", "overly-minimal", "hard-to-find-menu"]
+    },
+    "saas-tech": {
+      "examples": ["saas", "b2b-software", "developer-tool", "ai-platform", "cybersecurity"],
+      "primary_goal": "demo requests, signups",
+      "recommended_aesthetic": "linear-dark",
+      "alternative_aesthetics": ["stripe-modern", "glassmorphism", "ai-native"],
+      "style_keywords": ["modern", "technical", "premium", "innovative"],
+      "color_mood": "dark-mode + electric-blue or purple accent",
+      "typography_mood": "geometric-sans",
+      "key_sections": ["hero-product", "features-grid", "social-proof", "pricing", "demo-cta"],
+      "trust_signals": ["logos", "testimonials", "metrics", "security-badges"],
+      "anti_patterns": ["light-mode-default", "cluttered-ui", "generic-stock-photos", "corporate-boring"]
+    },
+    "ecommerce-retail": {
+      "examples": ["ecommerce", "boutique", "subscription-box", "marketplace"],
+      "primary_goal": "purchases",
+      "recommended_aesthetic": "clean-product-focused",
+      "alternative_aesthetics": ["luxury-gold", "vibrant-block"],
+      "style_keywords": ["clean", "trustworthy", "conversion-focused", "visual"],
+      "color_mood": "white + single bold accent",
+      "typography_mood": "clean-sans",
+      "key_sections": ["hero-product", "featured-products", "reviews", "faq", "promo-banner"],
+      "trust_signals": ["reviews", "free-shipping", "secure-checkout", "return-policy"],
+      "anti_patterns": ["cluttered-homepage", "hidden-pricing", "slow-loading-images", "distracting-animations"]
+    },
+    "construction-trades": {
+      "examples": ["general-contractor", "remodeling", "concrete", "flooring", "painting"],
+      "primary_goal": "quote requests",
+      "recommended_aesthetic": "industrial-bold",
+      "alternative_aesthetics": ["navy-professional", "all-white-light"],
+      "style_keywords": ["rugged", "professional", "reliable", "local"],
+      "color_mood": "charcoal + burnt-orange or construction-yellow",
+      "typography_mood": "bold-sans",
+      "key_sections": ["hero-project", "services-3-card", "portfolio-gallery", "reviews", "quote-cta"],
+      "trust_signals": ["licensed-insured", "project-photos", "years-experience", "local-reviews"],
+      "anti_patterns": ["decorative-waves", "pastel-colors", "serif-fonts", "no-project-photos"]
+    },
+    "automotive": {
+      "examples": ["auto-repair", "detailing", "tint-shop", "performance-shop", "dealership"],
+      "primary_goal": "appointment booking, quote requests",
+      "recommended_aesthetic": "dark-performance",
+      "alternative_aesthetics": ["industrial-bold", "all-white-light"],
+      "style_keywords": ["performance", "precision", "premium", "technical"],
+      "color_mood": "dark-charcoal + red or orange accent",
+      "typography_mood": "bold-technical-sans",
+      "key_sections": ["hero-vehicle", "services-3-card", "before-after", "reviews", "book-cta"],
+      "trust_signals": ["certifications", "reviews", "shop-photos", "warranty-info"],
+      "anti_patterns": ["pastel-colors", "soft-animations", "no-vehicle-photos", "cluttered-layouts"]
+    },
+    "real-estate": {
+      "examples": ["real-estate-agent", "property-management", "home-staging", "mortgage-broker"],
+      "primary_goal": "lead capture, consultation",
+      "recommended_aesthetic": "luxury-clean",
+      "alternative_aesthetics": ["coastal-blue", "all-white-light"],
+      "style_keywords": ["premium", "trustworthy", "aspirational", "professional"],
+      "color_mood": "white + navy or black + gold accents",
+      "typography_mood": "elegant-serif-headlines",
+      "key_sections": ["hero-search", "featured-listings", "about-agent", "testimonials", "contact-cta"],
+      "trust_signals": ["sales-volume", "reviews", "awards", "local-expertise"],
+      "anti_patterns": ["cluttered-listings", "poor-quality-photos", "generic-stock-images", "hard-to-find-contact"]
+    },
+    "fitness-gym": {
+      "examples": ["gym", "personal-trainer", "crossfit", "yoga-studio", "martial-arts"],
+      "primary_goal": "membership signups, class bookings",
+      "recommended_aesthetic": "bold-energetic",
+      "alternative_aesthetics": ["dark-performance", "vibrant-block"],
+      "style_keywords": ["energetic", "motivational", "community", "strong"],
+      "color_mood": "black + electric accent (red, orange, neon green)",
+      "typography_mood": "bold-condensed-sans",
+      "key_sections": ["hero-cta", "membership-options", "class-schedule", "trainers", "testimonials"],
+      "trust_signals": ["transformation-photos", "reviews", "trainer-credentials", "facility-photos"],
+      "anti_patterns": ["soft-pastels", "serif-fonts", "calm-aesthetic", "no-action-photos"]
+    },
+    "education-coaching": {
+      "examples": ["tutor", "test-prep", "business-coach", "career-coach", "online-course"],
+      "primary_goal": "consultation booking, course enrollment",
+      "recommended_aesthetic": "clean-trustworthy",
+      "alternative_aesthetics": ["all-white-light", "warm-editorial"],
+      "style_keywords": ["trustworthy", "professional", "approachable", "results-oriented"],
+      "color_mood": "blue + white + warm accent",
+      "typography_mood": "friendly-sans",
+      "key_sections": ["hero-outcome", "services-3-card", "results-proof", "about", "book-cta"],
+      "trust_signals": ["credentials", "testimonials", "results", "media-features"],
+      "anti_patterns": ["aggressive-sales", "distracting-animations", "hard-to-find-pricing", "generic-stock-photos"]
+    },
+    "event-venue": {
+      "examples": ["wedding-venue", "event-space", "photographer", "dj", "catering"],
+      "primary_goal": "inquiry form, tour booking",
+      "recommended_aesthetic": "elegant-visual",
+      "alternative_aesthetics": ["luxury-clean", "warm-editorial"],
+      "style_keywords": ["elegant", "visual", "emotional", "premium"],
+      "color_mood": "soft-neutrals + romantic accent (blush, sage, gold)",
+      "typography_mood": "elegant-serif-or-script",
+      "key_sections": ["hero-gallery", "venue-features", "testimonials", "gallery", "inquiry-cta"],
+      "trust_signals": ["portfolio", "reviews", "awards", "real-events"],
+      "anti_patterns": ["poor-photos", "cluttered-layout", "generic-stock", "hard-to-find-pricing"]
+    }
+  },
+  "fallback": {
+    "recommended_aesthetic": "all-white-light",
+    "style_keywords": ["clean", "professional"],
+    "color_mood": "white + navy or charcoal",
+    "typography_mood": "clean-sans",
+    "key_sections": ["hero", "services", "about", "reviews", "cta"],
+    "trust_signals": ["reviews", "years-experience", "contact-info"],
+    "anti_patterns": ["neon-colors", "cluttered-layouts", "generic-stock-photos"]
+  }
+}

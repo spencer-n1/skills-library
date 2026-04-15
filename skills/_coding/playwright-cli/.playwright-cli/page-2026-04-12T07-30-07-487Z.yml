@@ -1,0 +1,184 @@
+- generic [ref=e7]:
+  - navigation [ref=e8]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - button "H H O O M M E E" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - generic [ref=e15]: H
+              - generic [ref=e16]: H
+            - generic [ref=e17]:
+              - generic [ref=e18]: O
+              - generic [ref=e19]: O
+            - generic [ref=e20]:
+              - generic [ref=e21]: M
+              - generic [ref=e22]: M
+            - generic [ref=e23]:
+              - generic [ref=e24]: E
+              - generic [ref=e25]: E
+        - button "W W H H Y Y C C H H O O O O S S E E U U S S" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: W
+              - generic [ref=e30]: W
+            - generic [ref=e31]:
+              - generic [ref=e32]: H
+              - generic [ref=e33]: H
+            - generic [ref=e34]:
+              - generic [ref=e35]: "Y"
+              - generic [ref=e36]: "Y"
+            - generic [ref=e40]:
+              - generic [ref=e41]: C
+              - generic [ref=e42]: C
+            - generic [ref=e43]:
+              - generic [ref=e44]: H
+              - generic [ref=e45]: H
+            - generic [ref=e46]:
+              - generic [ref=e47]: O
+              - generic [ref=e48]: O
+            - generic [ref=e49]:
+              - generic [ref=e50]: O
+              - generic [ref=e51]: O
+            - generic [ref=e52]:
+              - generic [ref=e53]: S
+              - generic [ref=e54]: S
+            - generic [ref=e55]:
+              - generic [ref=e56]: E
+              - generic [ref=e57]: E
+            - generic [ref=e61]:
+              - generic [ref=e62]: U
+              - generic [ref=e63]: U
+            - generic [ref=e64]:
+              - generic [ref=e65]: S
+              - generic [ref=e66]: S
+      - button "SolidState Studio" [ref=e67] [cursor=pointer]:
+        - img "SolidState Studio" [ref=e68]
+      - generic [ref=e69]:
+        - button "S S E E R R V V I I C C E E S S" [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]: S
+              - generic [ref=e74]: S
+            - generic [ref=e75]:
+              - generic [ref=e76]: E
+              - generic [ref=e77]: E
+            - generic [ref=e78]:
+              - generic [ref=e79]: R
+              - generic [ref=e80]: R
+            - generic [ref=e81]:
+              - generic [ref=e82]: V
+              - generic [ref=e83]: V
+            - generic [ref=e84]:
+              - generic [ref=e85]: I
+              - generic [ref=e86]: I
+            - generic [ref=e87]:
+              - generic [ref=e88]: C
+              - generic [ref=e89]: C
+            - generic [ref=e90]:
+              - generic [ref=e91]: E
+              - generic [ref=e92]: E
+            - generic [ref=e93]:
+              - generic [ref=e94]: S
+              - generic [ref=e95]: S
+        - button "P P O O R R T T F F O O L L I I O O" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: P
+              - generic [ref=e100]: P
+            - generic [ref=e101]:
+              - generic [ref=e102]: O
+              - generic [ref=e103]: O
+            - generic [ref=e104]:
+              - generic [ref=e105]: R
+              - generic [ref=e106]: R
+            - generic [ref=e107]:
+              - generic [ref=e108]: T
+              - generic [ref=e109]: T
+            - generic [ref=e110]:
+              - generic [ref=e111]: F
+              - generic [ref=e112]: F
+            - generic [ref=e113]:
+              - generic [ref=e114]: O
+              - generic [ref=e115]: O
+            - generic [ref=e116]:
+              - generic [ref=e117]: L
+              - generic [ref=e118]: L
+            - generic [ref=e119]:
+              - generic [ref=e120]: I
+              - generic [ref=e121]: I
+            - generic [ref=e122]:
+              - generic [ref=e123]: O
+              - generic [ref=e124]: O
+        - button "Start Your Project" [ref=e126] [cursor=pointer]
+  - main [ref=e127]:
+    - generic [ref=e129]:
+      - generic [ref=e131]: Our Portfolio
+      - heading "Building a New Portfolio" [level=2] [ref=e132]
+      - generic [ref=e134]:
+        - img [ref=e136]
+        - 'heading "Next Project: Coming Soon" [level=3] [ref=e139]'
+        - paragraph [ref=e140]: Currently booking for April 2026 — reserve your spot
+        - generic [ref=e141] [cursor=pointer]:
+          - text: Book a Free Consultation
+          - img [ref=e142]
+      - generic [ref=e144]:
+        - generic [ref=e146]: Let's Work Together
+        - heading "Ready To Be Our Next Success Story?" [level=2] [ref=e147]
+        - paragraph [ref=e148]: Let's create a stunning, high-converting website for your business
+        - generic [ref=e150] [cursor=pointer]:
+          - text: Start Your Project
+          - img [ref=e151]
+  - contentinfo [ref=e153]:
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - heading "Services" [level=4] [ref=e157]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - button "Multi-Page Websites" [ref=e160] [cursor=pointer]
+            - listitem [ref=e161]:
+              - button "Landing Pages" [ref=e162] [cursor=pointer]
+            - listitem [ref=e163]:
+              - button "SEO + Campaigns" [ref=e164] [cursor=pointer]
+        - generic [ref=e165]:
+          - heading "Company" [level=4] [ref=e166]
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - button "Portfolio" [ref=e169] [cursor=pointer]
+        - generic [ref=e170]:
+          - heading "Contact" [level=4] [ref=e171]
+          - list [ref=e172]:
+            - listitem [ref=e173]: solidstatestudio.business@gmail.com
+            - listitem [ref=e174]: +1 (949) 903-8889
+            - listitem [ref=e175]: Orange County, CA
+            - listitem [ref=e176]:
+              - link "Instagram" [ref=e177] [cursor=pointer]:
+                - /url: https://instagram.com
+                - img [ref=e178]
+                - text: Instagram
+      - generic [ref=e181]:
+        - img "SolidState Studio" [ref=e182]
+        - generic [ref=e183]:
+          - generic [ref=e184]: © 2026 SolidState Studio LLC
+          - generic [ref=e185]: "|"
+          - button "Privacy Policy" [ref=e186] [cursor=pointer]
+          - generic [ref=e187]: "|"
+          - button "Sitemap" [ref=e188] [cursor=pointer]
+  - generic [ref=e191]:
+    - button [ref=e192] [cursor=pointer]:
+      - img [ref=e193]
+    - heading "Start Your Project" [level=3] [ref=e196]
+    - paragraph [ref=e197]: Let's create something amazing together.
+    - generic [ref=e205]:
+      - generic [ref=e206]: Project Details
+      - generic [ref=e207]: Your Info
+      - generic [ref=e208]: Send Message
+    - generic [ref=e244]:
+      - textbox "Tell us about your project..." [ref=e245]
+      - generic [ref=e246]:
+        - button "Back" [ref=e247] [cursor=pointer]:
+          - img [ref=e248]
+          - text: Back
+        - button "Send Message" [ref=e250] [cursor=pointer]:
+          - text: Send Message
+          - img [ref=e251]

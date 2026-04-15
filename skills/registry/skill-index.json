@@ -1,0 +1,280 @@
+{
+  "skills": [
+    {
+      "name": "business-researcher",
+      "description": "Research web design leads and compile standardized business intelligence. Extracts GMB info, reviews, competitors.",
+      "path": "skills/_research/business-researcher/SKILL.md",
+      "keywords": ["research", "look up", "find info", "GMB", "reviews", "google business", "lead research"]
+    },
+    {
+      "name": "deep-research-audit",
+      "description": "Run intensive, comprehensive research on any business, market, or existing asset.",
+      "path": "skills/_research/deep-research-audit/SKILL.md",
+      "keywords": ["deep research", "audit", "comprehensive research", "market research", "competitive analysis"]
+    },
+    {
+      "name": "competitor-alternatives",
+      "description": "Create competitor comparison or alternative pages for SEO and sales enablement.",
+      "path": "skills/_research/competitor-alternatives/SKILL.md",
+      "keywords": ["competitor comparison", "alternative page", "vs page", "battle card", "competitor teardown"],
+      "category": "research"
+    },
+    {
+      "name": "customer-research",
+      "description": "Conduct, analyze, or synthesize customer research. Build personas, analyze interviews, mine reviews.",
+      "path": "skills/_research/customer-research/SKILL.md",
+      "keywords": ["customer research", "personas", "JTBD", "voice of customer", "interviews", "survey analysis"],
+      "category": "research"
+    },
+    {
+      "name": "marketing-ideas",
+      "description": "Get marketing ideas, inspiration, and strategies. Library of 139 proven tactics.",
+      "path": "skills/_research/marketing-ideas/SKILL.md",
+      "keywords": ["marketing ideas", "growth ideas", "marketing strategies", "marketing tactics", "how to market"],
+      "category": "research"
+    },
+    {
+      "name": "marketing-psychology",
+      "description": "Apply psychological principles, mental models, and behavioral science to marketing.",
+      "path": "skills/_research/marketing-psychology/SKILL.md",
+      "keywords": ["psychology", "mental models", "cognitive bias", "persuasion", "behavioral science"],
+      "category": "research"
+    },
+    {
+      "name": "launch-strategy",
+      "description": "Plan product launches, feature announcements, and release strategy. Product Hunt, early access, waitlists.",
+      "path": "skills/_research/launch-strategy/SKILL.md",
+      "keywords": ["launch", "product hunt", "feature release", "go-to-market", "GTM plan", "beta launch"],
+      "category": "research"
+    },
+    {
+      "name": "pricing-strategy",
+      "description": "Pricing decisions, packaging, and monetization strategy. Value metrics, tier structure, research.",
+      "path": "skills/_research/pricing-strategy/SKILL.md",
+      "keywords": ["pricing", "pricing tiers", "freemium", "packaging", "value metric", "monetization"],
+      "category": "research"
+    },
+    {
+      "name": "copywriter",
+      "description": "On-demand copywriter. Clean, effective, persuasive writing for any medium — SEO content, blogs, emails, landing pages, sales pages, ads, social posts.",
+      "path": "skills/_copy/copywriter/SKILL.md",
+      "keywords": ["write copy", "SEO content", "blog post", "email copy", "landing page copy", "ad copy", "sales copy", "conversion copy"],
+      "category": "copy"
+    },
+    {
+      "name": "copy-editing",
+      "description": "Edit, review, and improve existing marketing copy. Seven sweeps framework.",
+      "path": "skills/_copy/copy-editing/SKILL.md",
+      "keywords": ["edit copy", "review copy", "proofread", "polish", "copy sweep", "tighten up"],
+      "category": "copy"
+    },
+    {
+      "name": "cold-email",
+      "description": "Write B2B cold emails and follow-up sequences that get replies.",
+      "path": "skills/_copy/cold-email/SKILL.md",
+      "keywords": ["cold email", "cold outreach", "prospecting email", "outbound email", "sales email"],
+      "category": "copy"
+    },
+    {
+      "name": "email-sequence",
+      "description": "Create automated email sequences, drip campaigns, nurture flows. Welcome, onboarding, re-engagement.",
+      "path": "skills/_copy/email-sequence/SKILL.md",
+      "keywords": ["email sequence", "drip campaign", "nurture sequence", "onboarding emails", "welcome series"],
+      "category": "copy"
+    },
+    {
+      "name": "seo-audit",
+      "description": "Audit SEO issues — technical, on-page, indexing, Core Web Vitals, meta tags.",
+      "path": "skills/_copy/seo-audit/SKILL.md",
+      "keywords": ["SEO audit", "technical SEO", "on-page SEO", "ranking issues", "crawl errors"],
+      "category": "copy"
+    },
+    {
+      "name": "ai-seo",
+      "description": "Optimize content for AI search engines — ChatGPT, Perplexity, Google AI Overviews.",
+      "path": "skills/_copy/ai-seo/SKILL.md",
+      "keywords": ["AI SEO", "AEO", "GEO", "LLMO", "AI citations", "AI visibility", "zero-click search"],
+      "category": "copy"
+    },
+    {
+      "name": "social-content",
+      "description": "Create social media content for LinkedIn, Twitter/X, Instagram, TikTok.",
+      "path": "skills/_copy/social-content/SKILL.md",
+      "keywords": ["social media", "LinkedIn post", "Twitter thread", "content calendar", "viral content"],
+      "category": "copy"
+    },
+    {
+      "name": "content-strategy",
+      "description": "Plan content strategy, pillars, topic clusters, editorial calendar.",
+      "path": "skills/_copy/content-strategy/SKILL.md",
+      "keywords": ["content strategy", "content plan", "topic clusters", "content pillars", "editorial calendar"],
+      "category": "copy"
+    },
+    {
+      "name": "schema-markup",
+      "description": "Add structured data and schema markup for rich snippets.",
+      "path": "skills/_copy/schema-markup/SKILL.md",
+      "keywords": ["schema markup", "structured data", "JSON-LD", "rich snippets", "FAQ schema"],
+      "category": "copy"
+    },
+    {
+      "name": "humanizer",
+      "description": "Remove signs of AI-generated writing from text. Makes copy sound more natural and human.",
+      "path": "skills/_copy/humanizer/SKILL.md",
+      "keywords": ["humanize", "de-ai", "natural writing", "remove AI patterns", "rewrite text", "polish copy"],
+      "category": "copy"
+    },
+    {
+      "name": "paid-ads",
+      "description": "Paid advertising campaigns — Google Ads, Meta, LinkedIn, Twitter/X. Strategy, targeting, optimization.",
+      "path": "skills/_ads/paid-ads/SKILL.md",
+      "keywords": ["paid ads", "PPC", "Google Ads", "Facebook ads", "LinkedIn ads", "ad campaign"],
+      "category": "ads"
+    },
+    {
+      "name": "ad-creative",
+      "description": "Generate and iterate ad creative — headlines, descriptions, primary text, variations at scale.",
+      "path": "skills/_ads/ad-creative/SKILL.md",
+      "keywords": ["ad creative", "ad copy variations", "headlines", "RSA headlines", "ad iterations"],
+      "category": "ads"
+    },
+    {
+      "name": "sales-enablement",
+      "description": "Create sales collateral — pitch decks, one-pagers, objection handling, demo scripts.",
+      "path": "skills/_sales/sales-enablement/SKILL.md",
+      "keywords": ["sales deck", "pitch deck", "one-pager", "objection handling", "demo script"],
+      "category": "sales"
+    },
+    {
+      "name": "lead-magnets",
+      "description": "Create lead magnets for email capture — checklists, templates, ebooks, webinars.",
+      "path": "skills/_sales/lead-magnets/SKILL.md",
+      "keywords": ["lead magnet", "gated content", "content upgrade", "ebook", "checklist", "template download"],
+      "category": "sales"
+    },
+    {
+      "name": "reviewer",
+      "description": "Review any output before delivery to catch errors, gaps, or quality issues. Score quality and detect patterns.",
+      "path": "skills/reviewer/SKILL.md",
+      "keywords": ["review", "check", "validate", "proofread", "verify", "quality check"],
+      "category": "misc",
+      "type": "procedural"
+    },
+    {
+      "name": "md-to-pdf",
+      "description": "Convert Markdown documents to PDF format.",
+      "path": "skills/_misc/md-to-pdf/SKILL.md",
+      "keywords": ["pdf", "convert pdf", "markdown to pdf", "export pdf"],
+      "category": "misc",
+      "type": "utility"
+    },
+    {
+      "name": "prompt-builder",
+      "description": "Build client website prompts from research. Uses shared design library and reasoning engine.",
+      "path": "skills/_prompts/prompt-builder/SKILL.md",
+      "keywords": ["build prompt", "client website", "business website", "base44 prompt"]
+    },
+    {
+      "name": "reasoning-engine",
+      "description": "Shared design reasoning engine. Analyzes business types and recommends aesthetics, patterns, and styles.",
+      "path": "skills/_design/reasoning-engine/SKILL.md",
+      "keywords": ["design reasoning", "business type", "aesthetic recommendation", "pattern selection"],
+      "category": "design",
+      "type": "reference"
+    },
+    {
+      "name": "vibe-website",
+      "description": "Build production-ready Next.js client websites from research and design library. Direct code generation.",
+      "path": "skills/_coding/vibe-website/SKILL.md",
+      "keywords": ["build website", "client website", "next.js website", "web design agency", "vibe code website"],
+      "category": "coding",
+      "type": "procedural"
+    },
+    {
+      "name": "vibe-app",
+      "description": "Build React + Vite + Tailwind apps from feature descriptions. Direct code generation for dashboards and tools.",
+      "path": "skills/_coding/vibe-app/SKILL.md",
+      "keywords": ["build app", "react app", "dashboard", "vite app", "vibe code app"],
+      "category": "coding",
+      "type": "procedural"
+    },
+    {
+      "name": "vibe-editor",
+      "description": "Surgical editing skill for existing vibe-app and vibe-website projects. Handles simple copy changes through complex multi-file refactors. Uses ast-grep for structural search.",
+      "path": "skills/_coding/vibe-editor/SKILL.md",
+      "keywords": ["edit", "fix", "change", "update", "refactor", "add section", "add component", "rename"],
+      "category": "coding",
+      "type": "procedural"
+    },
+    {
+      "name": "code-prompt-builder",
+      "description": "Build complex app prompts (CRM, dashboards) in compressed code-like format.",
+      "path": "skills/_prompts/code-prompt-builder/SKILL.md",
+      "keywords": ["build app", "dashboard", "crm", "complex app", "code-like prompt"]
+    },
+    {
+      "name": "prompt-redesign",
+      "description": "Create redesign prompts for existing websites. Analyze URL and build redesign strategy.",
+      "path": "skills/_prompts/prompt-redesign/SKILL.md",
+      "keywords": ["redesign", "redesign prompt", "website redesign"]
+    },
+    {
+      "name": "prompt-engineering",
+      "description": "Surgical editing of existing prompts. Only change what is specifically requested.",
+      "path": "skills/_prompts/prompt-engineering/SKILL.md",
+      "keywords": ["engineer prompt", "fix prompt", "update prompt", "edit prompt", "refine prompt"]
+    },
+    {
+      "name": "cold-dm-hook",
+      "description": "Generate personalized cold DM hooks for outreach.",
+      "path": "skills/_outreach/cold-dm-hook/SKILL.md",
+      "keywords": ["cold dm", "hook", "outreach", "message hook"]
+    },
+    {
+      "name": "thank-you-email",
+      "description": "Generate post-launch thank you email for clients.",
+      "path": "skills/_outreach/thank-you-email/SKILL.md",
+      "keywords": ["thank you email", "client email", "post launch email"]
+    },
+    {
+      "name": "follow-up-email",
+      "description": "Generate follow-up email for prospects after cold calls.",
+      "path": "skills/_outreach/follow-up-email/SKILL.md",
+      "keywords": ["follow up email", "cold call follow up", "prospect email", "sales email"]
+    },
+    {
+      "name": "ast-grep",
+      "description": "Structural code search and replace for JSON, Python, CSS patterns.",
+      "path": "skills/_coding/ast-grep/SKILL.md",
+      "keywords": ["code search", "structural search", "ast grep", "pattern matching"]
+    },
+    {
+      "name": "base44-to-wordpress",
+      "description": "WordPress Elementor Transfer Pipeline. Base44 to WordPress conversion.",
+      "path": "skills/_coding/base44-to-wordpress/SKILL.md",
+      "keywords": ["wordpress", "elementor", "base44", "website transfer"]
+    },
+    {
+      "name": "playwright-cli",
+      "description": "Automate browser interactions for testing, screenshots, form filling, and element interaction.",
+      "path": "skills/_coding/playwright-cli/SKILL.md",
+      "keywords": ["playwright", "browser automation", "test website", "screenshot", "click element", "fill form", "page snapshot"]
+    },
+    {
+      "name": "skill-builder",
+      "description": "Build new skills through collaborative planning. Manual mode only.",
+      "path": "skills/skill-builder/SKILL.md",
+      "keywords": ["build a skill", "create skill", "new skill", "make a skill"],
+      "category": "utility",
+      "type": "procedural"
+    },
+    {
+      "name": "git-backup",
+      "description": "Backup git repositories and manage repository snapshots.",
+      "path": "skills/git-backup/SKILL.md",
+      "keywords": ["git", "backup", "repository", "snapshot", "save"],
+      "category": "utility",
+      "type": "utility"
+    }
+  ]
+}

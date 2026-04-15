@@ -1,0 +1,277 @@
+{
+  "version": "1.0",
+  "description": "Business type to hook angle mapping for cold DM outreach",
+  "default_area": "your area",
+  "hooks": {
+    "barber": {
+      "angle": "client_types",
+      "hook": "do you take all types of clients?",
+      "alt_hooks": [
+        "do you do house calls too?",
+        "do you work with all hair types?"
+      ]
+    },
+    "hair stylist": {
+      "angle": "client_types",
+      "hook": "do you take all types of clients?",
+      "alt_hooks": [
+        "do you do house calls too?",
+        "do you work with all hair types?"
+      ]
+    },
+    "salon": {
+      "angle": "client_types",
+      "hook": "do you take all types of clients?",
+      "alt_hooks": [
+        "do you do house calls too?",
+        "do you work with all hair types?"
+      ]
+    },
+    "construction": {
+      "angle": "location_scope",
+      "hook": "do you work in all of {area}?",
+      "alt_hooks": [
+        "do you travel outside {area} for jobs?",
+        "do you do residential and commercial?"
+      ]
+    },
+    "contractor": {
+      "angle": "location_scope",
+      "hook": "do you work in all of {area}?",
+      "alt_hooks": [
+        "do you travel outside {area} for jobs?",
+        "do you do residential and commercial?"
+      ]
+    },
+    "electrician": {
+      "angle": "service_range",
+      "hook": "do you do residential and commercial?",
+      "alt_hooks": [
+        "do you do emergency calls?",
+        "do you service all of {area}?"
+      ]
+    },
+    "plumber": {
+      "angle": "service_range",
+      "hook": "do you do emergency calls?",
+      "alt_hooks": [
+        "do you do residential and commercial?",
+        "do you service all of {area}?"
+      ]
+    },
+    "hvac": {
+      "angle": "service_range",
+      "hook": "do you do residential and commercial?",
+      "alt_hooks": [
+        "do you service all of {area}?",
+        "do you do emergency repairs?"
+      ]
+    },
+    "mechanic": {
+      "angle": "service_range",
+      "hook": "do you work on all makes or specialize?",
+      "alt_hooks": [
+        "do you do imports too?",
+        "do you offer mobile service?"
+      ]
+    },
+    "auto shop": {
+      "angle": "service_range",
+      "hook": "do you work on all makes or specialize?",
+      "alt_hooks": [
+        "do you do imports too?",
+        "do you offer mobile service?"
+      ]
+    },
+    "landscaper": {
+      "angle": "service_range",
+      "hook": "do you do commercial properties too?",
+      "alt_hooks": [
+        "do you work year-round or just seasonal?",
+        "do you design or just maintain?"
+      ]
+    },
+    "landscaping": {
+      "angle": "service_range",
+      "hook": "do you do commercial properties too?",
+      "alt_hooks": [
+        "do you work year-round or just seasonal?",
+        "do you design or just maintain?"
+      ]
+    },
+    "restaurant": {
+      "angle": "add_on_services",
+      "hook": "do you cater for events too?",
+      "alt_hooks": [
+        "do you offer private dining?",
+        "is this the only location?"
+      ]
+    },
+    "cafe": {
+      "angle": "add_on_services",
+      "hook": "do you cater for events too?",
+      "alt_hooks": [
+        "do you offer private dining?",
+        "is this the only location?"
+      ]
+    },
+    "personal trainer": {
+      "angle": "service_range",
+      "hook": "do you train in-person and online?",
+      "alt_hooks": [
+        "do you do group sessions too?",
+        "do you work with beginners?"
+      ]
+    },
+    "fitness": {
+      "angle": "service_range",
+      "hook": "do you train in-person and online?",
+      "alt_hooks": [
+        "do you do group sessions too?",
+        "do you work with beginners?"
+      ]
+    },
+    "photographer": {
+      "angle": "service_range",
+      "hook": "do you travel for shoots?",
+      "alt_hooks": [
+        "do you do video too or just photos?",
+        "do you work with businesses or just individuals?"
+      ]
+    },
+    "real estate": {
+      "angle": "client_types",
+      "hook": "do you work with buyers and sellers?",
+      "alt_hooks": [
+        "do you cover all of {area} or just certain neighborhoods?"
+      ]
+    },
+    "realtor": {
+      "angle": "client_types",
+      "hook": "do you work with buyers and sellers?",
+      "alt_hooks": [
+        "do you cover all of {area} or just certain neighborhoods?"
+      ]
+    },
+    "roofing": {
+      "angle": "location_scope",
+      "hook": "do you work in all of {area}?",
+      "alt_hooks": [
+        "do you do residential and commercial?",
+        "do you offer emergency repairs?"
+      ]
+    },
+    "painter": {
+      "angle": "service_range",
+      "hook": "do you do interior and exterior?",
+      "alt_hooks": [
+        "do you work on commercial properties too?",
+        "do you service all of {area}?"
+      ]
+    },
+    "cleaning": {
+      "angle": "service_range",
+      "hook": "do you do residential and commercial?",
+      "alt_hooks": [
+        "do you offer move-in/move-out cleaning?",
+        "do you service all of {area}?"
+      ]
+    },
+    "maids": {
+      "angle": "service_range",
+      "hook": "do you do residential and commercial?",
+      "alt_hooks": [
+        "do you offer move-in/move-out cleaning?",
+        "do you service all of {area}?"
+      ]
+    },
+    "moving": {
+      "angle": "service_range",
+      "hook": "do you do local and long distance?",
+      "alt_hooks": [
+        "do you pack too or just move?",
+        "do you service all of {area}?"
+      ]
+    },
+    "handyman": {
+      "angle": "service_range",
+      "hook": "do you do big projects or just small fixes?",
+      "alt_hooks": [
+        "do you work in all of {area}?",
+        "do you do emergency calls?"
+      ]
+    },
+    "tutor": {
+      "angle": "service_range",
+      "hook": "do you tutor all subjects or specialize?",
+      "alt_hooks": [
+        "do you do in-person and online?",
+        "do you work with all ages?"
+      ]
+    },
+    "massage": {
+      "angle": "service_range",
+      "hook": "do you do house calls too?",
+      "alt_hooks": [
+        "do you offer different types of massage?",
+        "do you work with all clients?"
+      ]
+    },
+    "tattoo": {
+      "angle": "client_types",
+      "hook": "do you take all types of clients?",
+      "alt_hooks": [
+        "do you do cover-ups too?",
+        "do you take walk-ins?"
+      ]
+    },
+    "tattoo artist": {
+      "angle": "client_types",
+      "hook": "do you take all types of clients?",
+      "alt_hooks": [
+        "do you do cover-ups too?",
+        "do you take walk-ins?"
+      ]
+    },
+    "florist": {
+      "angle": "add_on_services",
+      "hook": "do you deliver or just in-store pickup?",
+      "alt_hooks": [
+        "do you do events and weddings?",
+        "do you service all of {area}?"
+      ]
+    },
+    "bakery": {
+      "angle": "add_on_services",
+      "hook": "do you do custom orders for events?",
+      "alt_hooks": [
+        "do you deliver?",
+        "is this the only location?"
+      ]
+    },
+    "pet grooming": {
+      "angle": "service_range",
+      "hook": "do you do all breeds?",
+      "alt_hooks": [
+        "do you offer mobile grooming?",
+        "do you do cats too or just dogs?"
+      ]
+    },
+    "dog trainer": {
+      "angle": "service_range",
+      "hook": "do you work with all breeds?",
+      "alt_hooks": [
+        "do you do in-home training?",
+        "do you do group classes too?"
+      ]
+    }
+  },
+  "hook_formulas": {
+    "location_scope": "do you work in all of {area}?",
+    "client_types": "do you take all types of clients?",
+    "service_range": "do you do [X] and [Y]?",
+    "add_on_services": "do you [additional service] too?",
+    "availability": "do you do [emergency/weekends/house calls]?",
+    "scope": "is this your only location?"
+  }
+}

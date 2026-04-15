@@ -1,0 +1,148 @@
+{
+  "styles": {
+    "minimalism-swiss": {
+      "keywords": ["minimal", "clean", "precise", "grid-based"],
+      "best_for": ["enterprise", "dashboards", "documentation", "architecture"],
+      "avoid_for": ["local-business", "children", "emergency-services"],
+      "fonts": ["Inter", "Helvetica Now", "Söhne"],
+      "colors": "black, white, single accent",
+      "anti_patterns": ["decorative-elements", "gradients", "serif-fonts"]
+    },
+    "glassmorphism": {
+      "keywords": ["modern", "premium", "depth", "translucent"],
+      "best_for": ["saas", "fintech", "dashboards", "creative-agencies"],
+      "avoid_for": ["trades", "emergency-services", "budget-brands"],
+      "fonts": ["Satoshi", "Manrope", "Plus Jakarta Sans"],
+      "colors": "dark backgrounds + vibrant accents",
+      "anti_patterns": ["poor-contrast", "overuse-of-blur", "cluttered-cards"]
+    },
+    "brutalism": {
+      "keywords": ["raw", "bold", "experimental", "high-contrast"],
+      "best_for": ["portfolio", "creative-agencies", "streetwear", "music"],
+      "avoid_for": ["law", "healthcare", "finance", "home-services"],
+      "fonts": ["Space Grotesk", "Neue Montreal", "Monument Extended"],
+      "colors": "high contrast, clashing colors",
+      "anti_patterns": ["subtlety", "corporate-polish", "safe-choices"]
+    },
+    "dark-mode-oled": {
+      "keywords": ["sleek", "technical", "premium", "night-mode"],
+      "best_for": ["saas", "developer-tools", "gaming", "crypto"],
+      "avoid_for": ["healthcare", "wellness", "coastal-businesses", "elderly-audiences"],
+      "fonts": ["Geist", "Satoshi", "JetBrains Mono"],
+      "colors": "pure black or charcoal + electric accent",
+      "anti_patterns": ["light-sections", "pastel-accents", "warm-grays"]
+    },
+    "soft-ui-evolution": {
+      "keywords": ["soft", "premium", "organic", "approachable"],
+      "best_for": ["wellness", "beauty", "lifestyle", "premium-services"],
+      "avoid_for": ["industrial", "emergency", "budget", "technical"],
+      "fonts": ["Montserrat", "Cormorant Garamond", "Outfit"],
+      "colors": "warm neutrals + soft accent",
+      "anti_patterns": ["harsh-shadows", "neon-colors", "sharp-corners"]
+    },
+    "bento-grid": {
+      "keywords": ["modular", "organized", "modern", "scannable"],
+      "best_for": ["saas", "product-pages", "dashboards", "portfolios"],
+      "avoid_for": ["local-services", "content-heavy", "emergency"],
+      "fonts": ["Inter", "Geist", "SF Pro"],
+      "colors": "subtle backgrounds + focused accents",
+      "anti_patterns": ["information-overload", "uneven-cards", "cluttered-grid"]
+    },
+    "editorial-magazine": {
+      "keywords": ["sophisticated", "visual", "story-driven", "premium"],
+      "best_for": ["fashion", "luxury", "portfolio", "cultural-brands"],
+      "avoid_for": ["home-services", "emergency", "saas", "utilities"],
+      "fonts": ["Playfair Display", "Canela", "GT America"],
+      "colors": "neutral palette with dramatic contrast",
+      "anti_patterns": ["rushed-layouts", "low-quality-images", "corporate-stock"]
+    },
+    "ai-native-ui": {
+      "keywords": ["futuristic", "intelligent", "minimal", "adaptive"],
+      "best_for": ["ai-products", "chatbots", "copilots", "automation"],
+      "avoid_for": ["local-business", "healthcare", "trades"],
+      "fonts": ["Geist", "SF Pro", "Satoshi"],
+      "colors": "dark or light with gradient glow accents",
+      "anti_patterns": ["cluttered-interface", "too-many-buttons", "confusing-workflows"]
+    },
+    "coastal-breeze": {
+      "keywords": ["light", "airy", "trustworthy", "residential"],
+      "best_for": ["coastal-businesses", "home-services", "pools", "landscaping"],
+      "avoid_for": ["emergency-services", "luxury", "urban-industrial", "winter-markets"],
+      "fonts": ["Outfit", "Poppins", "Open Sans"],
+      "colors": "white + soft blues + sand/beige",
+      "anti_patterns": ["dark-mode", "urgent-reds", "corporate-navy"]
+    },
+    "navy-gold-premium": {
+      "keywords": ["authoritative", "trustworthy", "established", "prestigious"],
+      "best_for": ["law", "finance", "insurance", "consulting"],
+      "avoid_for": ["startups", "creative", "children", "casual-brands"],
+      "fonts": ["Playfair Display", "Cormorant Garamond", "Libre Baskerville + Montserrat"],
+      "colors": "deep navy + gold accents + cream/white",
+      "anti_patterns": ["bright-neons", "playful-illustrations", "casual-copy", "cluttered-layouts"]
+    },
+    "sage-green-healthcare": {
+      "keywords": ["calming", "healing", "clean", "professional"],
+      "best_for": ["medical", "dental", "therapy", "wellness"],
+      "avoid_for": ["nightlife", "gaming", "emergency", "luxury-fashion"],
+      "fonts": ["Outfit", "Montserrat", "Lato"],
+      "colors": "sage green + warm white + soft charcoal",
+      "anti_patterns": ["red-accents", "dark-mode", "aggressive-animations", "cluttered-forms"]
+    },
+    "dark-emergency-green": {
+      "keywords": ["urgent", "24-7", "professional", "reliable"],
+      "best_for": ["emergency-services", "plumbing", "HVAC", "locksmith"],
+      "avoid_for": ["wellness", "luxury", "creative", "children"],
+      "fonts": ["Inter", "Roboto", "Oswald"],
+      "colors": "dark background + emergency green or bright orange",
+      "anti_patterns": ["pastel-colors", "soft-animations", "serif-fonts", "calm-aesthetic"]
+    },
+    "industrial-bold": {
+      "keywords": ["rugged", "professional", "no-nonsense", "strong"],
+      "best_for": ["construction", "trades", "manufacturing", "automotive"],
+      "avoid_for": ["beauty", "wellness", "luxury", "children"],
+      "fonts": ["Oswald", "Bebas Neue", "Roboto Condensed"],
+      "colors": "charcoal + burnt orange or construction yellow",
+      "anti_patterns": ["pastels", "elegant-serifs", "soft-shadows", "decorative-patterns"]
+    },
+    "all-white-light": {
+      "keywords": ["clean", "simple", "versatile", "bright"],
+      "best_for": ["general-business", "consultants", "startups", "minimal-brands"],
+      "avoid_for": ["gaming", "nightlife", "emergency"],
+      "fonts": ["Satoshi", "Geist", "Outfit"],
+      "colors": "white + charcoal + single subtle accent",
+      "anti_patterns": ["dark-sections", "busy-patterns", "multiple-accents"]
+    }
+  },
+  "font_pairings": {
+    "clean-modern": {
+      "display": "Geist",
+      "body": "Geist",
+      "fallback": "system-ui, sans-serif"
+    },
+    "elegant-premium": {
+      "display": "Playfair Display",
+      "body": "Montserrat",
+      "fallback": "Georgia, serif"
+    },
+    "friendly-professional": {
+      "display": "Outfit",
+      "body": "Outfit",
+      "fallback": "system-ui, sans-serif"
+    },
+    "bold-industrial": {
+      "display": "Oswald",
+      "body": "Roboto",
+      "fallback": "Arial, sans-serif"
+    },
+    "editorial-warm": {
+      "display": "Cormorant Garamond",
+      "body": "Montserrat",
+      "fallback": "Georgia, serif"
+    },
+    "technical-saas": {
+      "display": "Satoshi",
+      "body": "Inter",
+      "fallback": "system-ui, sans-serif"
+    }
+  }
+}
