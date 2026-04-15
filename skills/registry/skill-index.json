@@ -207,6 +207,14 @@
       "type": "procedural"
     },
     {
+      "name": "vibe-replicate",
+      "description": "Replicate an existing vibe-coded website or app from scratch using source code, live URL screenshots, and the original prompt.",
+      "path": "skills/_coding/vibe-replicate/SKILL.md",
+      "keywords": ["replicate", "clone", "duplicate", "recreate", "copy website", "rebuild", "vibe replicate"],
+      "category": "coding",
+      "type": "procedural"
+    },
+    {
       "name": "code-prompt-builder",
       "description": "Build complex app prompts (CRM, dashboards) in compressed code-like format.",
       "path": "skills/_prompts/code-prompt-builder/SKILL.md",
