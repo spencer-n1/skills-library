@@ -78,7 +78,7 @@ Floating CTA: Chat bubble button
 ```
 
 ## Notes
-- This is Spencer's "sick idea" — non-intrusive but always available
+- This is the user's "sick idea" — non-intrusive but always available
 - Works especially well with clean hero (no form) approach
 - Alternative to aggressive popups
 - Keep icon simple and recognizable

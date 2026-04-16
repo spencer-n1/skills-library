@@ -1,6 +1,6 @@
 # Taste Profile
 
-Spencer's accumulated design preferences based on feedback.
+the user's accumulated design preferences based on feedback.
 
 ---
 
@@ -62,4 +62,4 @@ Spencer's accumulated design preferences based on feedback.
 ---
 
 *Last updated: 2026-04-12*
-*Update this file when Spencer gives feedback on builds*
+*Update this file when the user gives feedback on builds*

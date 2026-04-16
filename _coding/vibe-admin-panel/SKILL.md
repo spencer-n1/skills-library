@@ -26,7 +26,7 @@ The admin panel is a password-gated React route built directly into the existing
 
 ## Activation Triggers
 
-Use this skill when Spencer says:
+Use this skill when the user says:
 - "Add an admin page to [site]"
 - "The client wants to manage their own reviews"
 - "Add a blog the client can update"
@@ -39,13 +39,13 @@ Use this skill when Spencer says:
 
 **For vibe-website (Next.js):** The current vibe-website skill uses `output: 'export'` (static HTML files only). API routes **do not work** in static export mode.
 
-If Spencer wants a fully functional admin panel with real-time edits on a vibe-website, you have two options:
+If the user wants a fully functional admin panel with real-time edits on a vibe-website, you have two options:
 1. **Remove `output: 'export'`** from `next.config.js` and deploy to a serverful host (Vercel server mode, Node.js host, Cloudways with Node support) so API routes can run.
 2. **Use a lightweight backend** like Supabase for all data reads/writes instead of local JSON + API routes.
 
 For vibe-app (React + Vite), there is no static export limitation — Supabase or a small backend works out of the box.
 
-**Always warn Spencer about this trade-off before building the admin panel on a Next.js site.**
+**Always warn the user about this trade-off before building the admin panel on a Next.js site.**
 
 ---
 
@@ -53,7 +53,7 @@ For vibe-app (React + Vite), there is no static export limitation — Supabase o
 
 1. Existing vibe-website or vibe-app project path
 2. Content types to manage (reviews, blog posts, products, team members, etc.)
-3. Admin password (default: `admin2026` — Spencer should change per client)
+3. Admin password (default: `admin2026` — the user should change per client)
 
 ---
 
@@ -104,7 +104,7 @@ Fields: `id`, `name`, `role`, `bio`, `photo`, `order`
 Admin UI: Card list, add/edit modal, drag-to-reorder (or manual order field)
 
 ### General (Custom)
-Ask Spencer what fields are needed before building.
+Ask the user what fields are needed before building.
 
 ---
 
@@ -116,10 +116,10 @@ Ask Spencer what fields are needed before building.
 - Note the existing design system tokens
 
 ### Step 2: Define Content Types
-- Confirm with Spencer which content types to manage
+- Confirm with the user which content types to manage
 - Map each type to its fields (use templates above)
 - Confirm admin password
-- **For vibe-website:** Confirm whether Spencer accepts removing `output: 'export'` or using Supabase
+- **For vibe-website:** Confirm whether the user accepts removing `output: 'export'` or using Supabase
 
 ### Step 3: Build the Data Layer
 - Create `/data/[type].json` with existing hardcoded content seeded in
@@ -200,7 +200,7 @@ Optional:
 - `react-hot-toast` for notifications
 - `@uiw/react-md-editor` for blog markdown editing
 
-**Ask Spencer before adding any new dependency.**
+**Ask the user before adding any new dependency.**
 
 ---
 

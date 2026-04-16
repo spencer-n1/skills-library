@@ -606,11 +606,11 @@ FIGMA:
 
 ## Mode: Convert Only
 
-**Trigger:** Spencer provides app information (description, features, requirements)
+**Trigger:** the user provides app information (description, features, requirements)
 
 **Process:**
 1. Determine mode: Simple (1-Prompt) or Complex (2-Prompt)
-2. Gather app information from Spencer's description
+2. Gather app information from the user's description
 3. Define DS, ENTITIES, NAV, COMPONENTS, LOGIC (SAMPLE optional)
 4. If 2-Prompt: Split into Foundation + Shell
 5. If 1-Prompt: Include PAGES inline
@@ -620,7 +620,7 @@ FIGMA:
 **File Naming:**
 - 1-Prompt: `prompts/engineering/[app-name].md`
 - 2-Prompt: `prompts/engineering/[app-name]/prompt1.md` + `prompt2.md`
-- Spencer may specify custom path
+- the user may specify custom path
 
 **What I Output:**
 - Code-style markdown in the format specified above
@@ -630,7 +630,7 @@ FIGMA:
 **What Happens Next:**
 - Prompt-engineering skill takes over for edits
 - Follows Clarify → Confirm → Edit workflow
-- Spencer directs specific changes
+- the user directs specific changes
 
 ---
 

@@ -93,4 +93,4 @@ Hero Section: Mixed typography headline
 - Don't overdo it — 2-3 font styles max in headline
 - Serif adds elegance, sans-serif adds readability
 - Works best with clean, minimal backgrounds
-- This is Spencer's "mixed fonts in hero" pattern for elegant sites
+- This is the user's "mixed fonts in hero" pattern for elegant sites

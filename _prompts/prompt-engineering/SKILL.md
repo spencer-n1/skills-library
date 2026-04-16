@@ -28,13 +28,13 @@ status: active
 
 ## Purpose
 
-Make precise, surgical changes to existing prompt files. **Only change what Spencer specifically requests.** Nothing else. No rewriting. No "improving." No shortening. No formatting cleanup.
+Make precise, surgical changes to existing prompt files. **Only change what the user specifically requests.** Nothing else. No rewriting. No "improving." No shortening. No formatting cleanup.
 
 ---
 
 ## Activation
 
-**Enter skill mode when Spencer says:**
+**Enter skill mode when the user says:**
 - "Skill mode: prompt-engineering"
 - "Use prompt-engineering skill"
 - "Prompt engineering mode"
@@ -45,7 +45,7 @@ Make precise, surgical changes to existing prompt files. **Only change what Spen
 **ALSO auto-trigger when:**
 - Target file path contains `/prompts/`
 - Target file ends in `.md` and path includes "prompt"
-- Spencer says "add to [filename]" and [filename] is in prompts/
+- the user says "add to [filename]" and [filename] is in prompts/
 - Any request that would modify a prompt file
 
 ---
@@ -58,11 +58,11 @@ Make precise, surgical changes to existing prompt files. **Only change what Spen
 1. STOP
 2. Read this skill file completely
 3. Follow the workflow exactly (Clarify → Confirm → Edit)
-4. If you already started editing without following the skill: STOP and notify Spencer
+4. If you already started editing without following the skill: STOP and notify the user
 
 **This applies to:**
 - Any `.md` file in `prompts/` directory
-- Any file Spencer refers to as "the prompt" or "prompt file"
+- Any file the user refers to as "the prompt" or "prompt file"
 - Any file with "prompt" in the name
 
 **NO EXCUSES:** "I forgot", "It was just a small change", "I already knew what to do" — none of these override this rule.
@@ -75,7 +75,7 @@ Before touching any file, convert the user's request into a **discrete, numbered
 
 **Protocol:**
 1. Parse the user's input. Break it into individual, specific edits.
-2. Present the list to Spencer exactly like this:
+2. Present the list to the user exactly like this:
    ```
    Here's what I understood you want changed in [filename]:
 
@@ -85,8 +85,8 @@ Before touching any file, convert the user's request into a **discrete, numbered
 
    Does this look right? (yes / no / add or remove items)
    ```
-3. **WAIT for explicit confirmation.** Do not proceed until Spencer says yes or approves the list.
-4. If Spencer says no or adds items, revise the list and confirm again.
+3. **WAIT for explicit confirmation.** Do not proceed until the user says yes or approves the list.
+4. If the user says no or adds items, revise the list and confirm again.
 5. Only after confirmation, proceed to Step 1 (Read The File).
 
 **Why this matters:** Prevents misinterpretation, scope creep, and accidental rewrites.
@@ -99,7 +99,7 @@ Before touching any file, convert the user's request into a **discrete, numbered
 
 1. Say explicitly: "This is a prompt file. Activating prompt engineering skill."
 2. Read the skill file (this file) completely
-3. Complete Step 0 (confirm the numbered list of changes with Spencer)
+3. Complete Step 0 (confirm the numbered list of changes with the user)
 4. Only then proceed to edit
 
 **If you catch yourself about to edit without doing steps 1-3:**
@@ -133,7 +133,7 @@ Load the complete file into context. You need to see the exact text you're editi
 
 ### 2. Clarify Changes (Already Done in Step 0)
 
-The numbered list was confirmed before reading. If reading the file reveals that any item is ambiguous or would affect unexpected sections, pause and ask Spencer before editing.
+The numbered list was confirmed before reading. If reading the file reveals that any item is ambiguous or would affect unexpected sections, pause and ask the user before editing.
 
 ### 3. Use edit Tool — Surgical Only
 
@@ -158,13 +158,13 @@ edit:
 | Replace a specific section | Rewrite paragraphs to be "cleaner" |
 | Move content as requested | Reorganize structure because it "makes more sense" |
 
-**Rule:** If Spencer didn't say to change it, DON'T TOUCH IT.
+**Rule:** If the user didn't say to change it, DON'T TOUCH IT.
 
 ---
 
 ## Universal vs. Specific Changes
 
-When Spencer requests changes, look for patterns that could become universal rules. This keeps prompts concise without losing specificity.
+When the user requests changes, look for patterns that could become universal rules. This keeps prompts concise without losing specificity.
 
 ### When to Propose Universal Rules
 
@@ -196,7 +196,7 @@ Instead of listing every instance, propose a universal rule and ask:
 
 ## Optional: Universal Review
 
-**When Spencer says:** "Review for universal rules" or "Can this be more universal?"
+**When the user says:** "Review for universal rules" or "Can this be more universal?"
 
 **Process:**
 1. Read the complete prompt
@@ -241,7 +241,7 @@ After editing:
 - ✅ Use `edit` tool with exact text matching
 - ✅ Read the complete file first
 - ✅ Confirm exact scope before editing
-- ✅ Change ONLY what Spencer requested
+- ✅ Change ONLY what the user requested
 - ✅ Preserve all existing formatting, spacing, structure
 - ✅ Verify the edit worked correctly
 - ✅ Signal skill mode activation
@@ -262,9 +262,9 @@ After editing:
 | Mistake | Why It Fails | Correct Approach |
 |---------|--------------|------------------|
 | Rewriting from memory | Forgets details, changes wording unintentionally | `read` the file, then `edit` exactly |
-| "Cleaning up" while editing | Changes Spencer didn't ask for | Change ONLY what was requested |
+| "Cleaning up" while editing | Changes the user didn't ask for | Change ONLY what was requested |
 | Reformatting bullet points | Breaks existing structure | Keep exact formatting |
-| Shortening long descriptions | Removes information Spencer wants | Leave text exactly as-is |
+| Shortening long descriptions | Removes information the user wants | Leave text exactly as-is |
 | Not verifying the edit | May have accidentally changed more | Always re-read and confirm |
 
 ---
@@ -272,22 +272,22 @@ After editing:
 ## Error Handling
 
 **If file missing:**
-→ Stop. Ask Spencer to provide correct path.
+→ Stop. Ask the user to provide correct path.
 
 **If edit fails (no match):**
 → Re-read the file. The `old_string` didn't match exactly. Get the exact text including whitespace.
 
-**If Spencer says "that's not what I asked for":**
+**If the user says "that's not what I asked for":**
 → You touched something you shouldn't have. Revert and be more surgical.
 
-**If Spencer adds more changes mid-work:**
+**If the user adds more changes mid-work:**
 → Complete current edit, then confirm: "You also want [new change] — should I do that as a separate edit?"
 
 ---
 
 ## Completion Signal
 
-**Only execute edits AFTER Spencer confirms the bullet-point list.**
+**Only execute edits AFTER the user confirms the bullet-point list.**
 
 Once all edits are complete:
 
@@ -315,7 +315,7 @@ Everything else left exactly as-is.
 
 ## Complex Logic Formatting Guidelines
 
-When Spencer asks to format or emphasize complex/critical logic sections, use these patterns:
+When the user asks to format or emphasize complex/critical logic sections, use these patterns:
 
 ### 1. Visual Hierarchy for Critical Sections
 

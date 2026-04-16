@@ -1,17 +1,19 @@
-# Spencer's Skills Library
+# AI Agency Skills Library
 
 > A modular, executable skill system for agency work — research, copy, code, design, sales, and ops.
 
-This repo is the **single source of truth** for every skill in Spencer's AI agency stack. Each skill is a self-contained capability with a `SKILL.md` file that defines inputs, outputs, procedures, and failure modes.
+This repo is a **single source of truth** orchestration system built for running an AI-powered agency. Every skill is a self-contained capability with a `SKILL.md` file that defines inputs, outputs, procedures, and failure modes.
+
+The core idea: **process over guessing.** Instead of improvising on every request, the system matches tasks to predefined skills and executes them through standardized procedures.
 
 ---
 
-## How It Works (The Orchestrator)
+## What Is The Orchestrator?
 
-Every request made is matched to a skill **before** any work happens.
+The orchestrator is the routing layer that sits between a request and execution. It works like this:
 
 1. **Parse** the request → detect intent and keywords
-2. **Query** `registry/skill-index.json` → find the best match
+2. **Query** `registry/skill-index.json` → find the best match by confidence score
 3. **Load** the matching `SKILL.md` → follow the procedure exactly
 4. **Execute** → build, write, research, or edit using the skill's authorized path
 5. **Log** → report what skill was used, files touched, and how correctness was verified
@@ -25,10 +27,10 @@ Every request made is matched to a skill **before** any work happens.
 | **50–64%** | Present top 2 options, wait for choice |
 | **<50%** | Proceed without a skill |
 
-### User Overrides
-- "No skills" → skip the orchestrator
-- "Use [skill-name]" → force a specific skill
-- "Just do it" → bypass skills this time only
+### Override Commands
+- `"No skills"` → skip the orchestrator
+- `"Use [skill-name]"` → force a specific skill
+- `"Just do it"` → bypass skills this time only
 
 📄 **Read the full system in [`orchestrator.md`](orchestrator.md)**
 
@@ -36,21 +38,21 @@ Every request made is matched to a skill **before** any work happens.
 
 ## The Hard Gate (Coding Tasks)
 
-**STOP.** If Spencer asks you to edit, fix, update, refactor, or build code, you **must** load the correct coding skill **before** opening any file.
+Coding tasks have a **mandatory stop** before any file is opened. The system must load the correct coding skill first.
 
-| If Spencer says... | You must load... |
-|--------------------|------------------|
-| "Build a new website" | `vibe-website` |
-| "Build a new app/dashboard" | `vibe-app` |
-| "Edit my website/app" | `vibe-editor` |
-| "Add polish / animations / fixes" | `vibe-polish` |
-| "Replicate this site" | `vibe-replicate` |
-| "Add an admin panel" | `vibe-admin-panel` |
-| "Search / refactor code structure" | `ast-grep` |
-| "Take a screenshot / test a page" | `playwright-cli` |
-| "Move this to WordPress" | `base44-to-wordpress` |
+| Request Type | Required Skill |
+|--------------|----------------|
+| Build a new website | `vibe-website` |
+| Build a new app/dashboard | `vibe-app` |
+| Edit an existing website/app | `vibe-editor` |
+| Add polish / animations / fixes | `vibe-polish` |
+| Replicate an existing site | `vibe-replicate` |
+| Add an admin panel | `vibe-admin-panel` |
+| Search / refactor code structure | `ast-grep` |
+| Browser automation / screenshots | `playwright-cli` |
+| Move a site to WordPress | `base44-to-wordpress` |
 
-**Violating this gate is a failure mode.** Self-correct immediately if you catch yourself editing code without loading the skill first.
+Violating this gate is treated as a failure mode — the system self-corrects and loads the required skill before continuing.
 
 ---
 
@@ -143,7 +145,7 @@ Every request made is matched to a skill **before** any work happens.
 
 ## Common Skill Chains
 
-These workflows run in sequence:
+These are typical workflows that run multiple skills in sequence:
 
 | Goal | Chain |
 |------|-------|
@@ -161,7 +163,7 @@ These workflows run in sequence:
 ## Repo Structure
 
 ```
-_orchestrator.md          # Full orchestrator rules and protocols
+orchestrator.md          # Full orchestrator rules and protocols
 README.md                 # You are here
 registry/
   skill-index.json        # The master skill registry
@@ -181,14 +183,14 @@ git-backup/               # Git utility skill
 
 ---
 
-## Rules for Agents
+## Core Principles
 
 1. **Read `registry/skill-index.json` before acting.**
-2. **Skills are mandatory, not optional.** If it matches, you must use it.
+2. **Skills are mandatory, not optional.** If it matches, it must be used.
 3. **Never edit code without loading the coding skill first.**
 4. **Use subagents** for any skill with 5+ steps or 3+ file reads.
-5. **Log every execution:** skill name, tier/phase, files touched, verification.
+5. **Log every execution:** skill name, tier/phase, files touched, verification method.
 
 ---
 
-*Questions? Read [`orchestrator.md`](orchestrator.md) for the complete system spec.*
+*For the complete system specification, read [`orchestrator.md`](orchestrator.md).*

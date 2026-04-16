@@ -1,6 +1,6 @@
 # Section Pattern: Stats Bar (4-Column with Dividers)
 
-**Source:** General pattern — NOT recommended for portfolio pages per Spencer's feedback
+**Source:** General pattern — NOT recommended for portfolio pages per the user's feedback
 **Best for:** Home services, established businesses, credibility-focused
 **Vibe:** Trust, experience, proven results
 
@@ -45,7 +45,7 @@ Horizontal bar with 4 stat columns separated by vertical dividers. Each stat has
 - Home services (years in business important)
 - Established businesses with impressive numbers
 
-## When NOT to Use (Per Spencer)
+## When NOT to Use (Per the user)
 - Bottom of portfolio pages (feels disconnected)
 - New businesses without impressive stats
 - When it disrupts visual flow
@@ -74,4 +74,4 @@ Stats Section: 4-column credibility bar
 - Numbers must be REAL and IMPRESSIVE — fake stats destroy trust
 - This is credibility armor — use when you have credentials to show
 - Position matters — usually early in page flow
-- Avoid at bottom of pages (Spencer's specific feedback)
+- Avoid at bottom of pages (the user's specific feedback)

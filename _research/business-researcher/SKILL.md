@@ -28,7 +28,7 @@ type: procedural
 | **Name + Location** | Standard search: `"[name]" [location]` |
 | **Website URL only** | Start with site analysis → backfill with search for reviews/social |
 | **Social media handle** | Search handle → find connected business → expand |
-| **Partial info** | Search what you have → document gaps for Spencer to fill |
+| **Partial info** | Search what you have → document gaps for the user to fill |
 | **Warm lead context** | Use relationship info to guide search priorities |
 
 **Never say "I need more info."** Work with what you have and document what's missing.
@@ -73,7 +73,7 @@ Check mulch/db/mx-*.jsonl for failure modes
 **If you have partial info:**
 1. Search what you have
 2. Document what you couldn't find
-3. Note: "[Field] not found — may need Spencer to provide"
+3. Note: "[Field] not found — may need the user to provide"
 
 **Sources to check (all that apply):**
 - Google Business Profile (reviews + services often listed here)
@@ -296,7 +296,7 @@ workspace/scratch/$TODAY/research-[business-slug].md
 [Vibe, differentiators, voice, visual notes from Step 6]
 
 ## Lead Context
-**Source:** [How Spencer found them]
+**Source:** [How the user found them]
 **Warmth:** [Cold/Warm/Hot lead]
 **Pain Point:** [Why they need a website]
 **Opportunity:** [What's exciting about this project]
@@ -339,7 +339,7 @@ workspace/scratch/$TODAY/research-[business-slug].md
 
 ---
 
-## Report Back to Spencer
+## Report Back to the user
 
 After saving the file, report ONLY the most important information:
 
@@ -418,7 +418,7 @@ Manually append outcome to JSONL \
 
 ## Incremental Updates
 
-When Spencer says *"Add this to the research..."*:
+When the user says *"Add this to the research..."*:
 
 1. Read existing file
 2. Integrate new info cleanly
@@ -432,7 +432,7 @@ When Spencer says *"Add this to the research..."*:
 - ❌ Build prompts
 - ❌ Make design decisions  
 - ❌ Competitor analysis (future skill)
-- ❌ Judge lead quality (report findings, let Spencer decide)
+- ❌ Judge lead quality (report findings, let the user decide)
 - ❌ Limit review extraction (GET THEM ALL)
 
 ---

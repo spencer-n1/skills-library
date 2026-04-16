@@ -1,6 +1,6 @@
 ---
 name: prompt-redesign
-description: Create redesign prompts for existing websites. Use when Spencer asks you to redesign a current website. This is a STANDALONE task — analyze the URL, build redesign prompt, save file. Never do external research beyond the website itself.
+description: Create redesign prompts for existing websites. Use when the user asks you to redesign a current website. This is a STANDALONE task — analyze the URL, build redesign prompt, save file. Never do external research beyond the website itself.
 type: procedural
 ---
 
@@ -16,7 +16,7 @@ type: procedural
 
 ## When to Use
 
-Use this skill when Spencer asks you to redesign an existing site:
+Use this skill when the user asks you to redesign an existing site:
 - "Build a redesign prompt for [URL]"
 - "Update this prompt: [path]"
 - "Compare this site to the original prompt"
@@ -29,7 +29,7 @@ Use this skill when Spencer asks you to redesign an existing site:
 
 ## Three Input Paths
 
-Spencer can provide inputs in three ways. Detect which path based on what he gives you:
+the user can provide inputs in three ways. Detect which path based on what he gives you:
 
 ### Path A: URL Only
 **Input:** Website URL  
@@ -80,9 +80,9 @@ Check mulch/db/mx-*.jsonl for failure modes
 
 ### Step 0: Determine Input Path
 
-Based on what Spencer provided, identify the path:
+Based on what the user provided, identify the path:
 
-| If Spencer gives... | Path | Output filename |
+| If the user gives... | Path | Output filename |
 |---------------------|------|-----------------|
 | URL only | Path A | `[business-slug]-redesign.md` |
 | Prompt file path only | Path B | `[business-slug]-v2.md` |
@@ -434,7 +434,7 @@ Manually append outcome to JSONL \
 - **Path B:** Prompt only → revise and improve
 - **Path C:** URL + Prompt → gap analysis and fix
 
-No external research beyond the inputs provided. Spencer will provide URL and/or prompt path — use what's given.
+No external research beyond the inputs provided. the user will provide URL and/or prompt path — use what's given.
 
 ---
 

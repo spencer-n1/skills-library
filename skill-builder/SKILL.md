@@ -31,15 +31,15 @@ status: active
 
 ## Purpose
 
-Build new skills through heavy back-and-forth planning. Not automatic — only triggered when Spencer explicitly wants to create a skill.
+Build new skills through heavy back-and-forth planning. Not automatic — only triggered when the user explicitly wants to create a skill.
 
 **Use this when:**
-- Spencer says "let's build a skill for X"
+- the user says "let's build a skill for X"
 - You have a repetitive workflow that needs formalization
 - You want to delegate a new type of task to sub-agents
 
 **Don't use when:**
-- Spencer just mentions a task (that's auto-detection)
+- the user just mentions a task (that's auto-detection)
 - You've done something 2-3 times (not enough pattern)
 - It's a one-off request
 
@@ -59,7 +59,7 @@ Build new skills through heavy back-and-forth planning. Not automatic — only t
 **Example:**
 > "This skill researches any website and extracts their design patterns, color schemes, and typography for inspiration."
 
-**Exit criteria:** Clear one-liner that Spencer confirms.
+**Exit criteria:** Clear one-liner that the user confirms.
 
 ---
 
@@ -108,7 +108,7 @@ output_schema:
 - "What could go wrong at each step?"
 - "How do you know it's done?"
 
-**Exit criteria:** Complete procedure Spencer confirms.
+**Exit criteria:** Complete procedure the user confirms.
 
 ---
 
@@ -139,12 +139,12 @@ agent_type: main|sub
 **Steps:**
 1. Write YAML frontmatter (metadata)
 2. Write full SKILL.md content
-3. Show Spencer preview
+3. Show the user preview
 4. Revise based on feedback
 5. Save to `skills/[name]/SKILL.md`
 6. Add entry to `skills/registry/skill-index.json`
 
-**Exit criteria:** Skill file created, registry updated, Spencer confirms it's ready.
+**Exit criteria:** Skill file created, registry updated, the user confirms it's ready.
 
 ---
 
@@ -256,24 +256,24 @@ How this skill fits into the larger workflow.
 ## Example Session
 
 ```
-Spencer: "Let's build a skill for researching competitors"
+the user: "Let's build a skill for researching competitors"
 
 **Phase 1: Concept**
 Me: "What should this do in one sentence?"
-Spencer: "Research any business's competitors and analyze their positioning"
+the user: "Research any business's competitors and analyze their positioning"
 
 **Phase 2: Input/Output**
 Me: "What does it need to start?"
-Spencer: "Business name and location"
+the user: "Business name and location"
 Me: "What does it produce?"
-Spencer: "Competitor analysis report"
+the user: "Competitor analysis report"
 
 **Phase 3: Procedure**
 [...back and forth on steps...]
 
 **Phase 4: Keywords**
 Me: "What phrases trigger this?"
-Spencer: "research competitors, competitor analysis, who are their competitors"
+the user: "research competitors, competitor analysis, who are their competitors"
 
 **Phase 5: Write**
 [Create file, show preview, revise, save]
@@ -292,6 +292,6 @@ When done:
 
 - This is **manual mode** — never automatic
 - Take time to get it right
-- Spencer can bail out at any phase
+- the user can bail out at any phase
 - Skills can be updated later via FIX
 - Start simple, evolve later

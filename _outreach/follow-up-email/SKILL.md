@@ -159,7 +159,7 @@ client_name: Mike
 business_name: XPO Rehab
 call_notes: They rely on referrals, want consistent lead flow, mentioned 73% mobile traffic
 industry: healthcare
-calendly_link: https://calendly.com/spencer/review
+calendly_link: https://calendly.com/the user/review
 ```
 
 **Minimal info:**

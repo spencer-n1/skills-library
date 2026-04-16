@@ -29,7 +29,7 @@ keywords: ["push to git", "pull from git", "git status", "backup", "sync"]
 
 **Remote URL:**
 ```
-https://ghp_<YOUR_TOKEN_HERE>@github.com/spencer-n1/Kimi-Claw-WorkSpace.git
+https://ghp_<YOUR_TOKEN_HERE>@github.com/the user-n1/Kimi-Claw-WorkSpace.git
 ```
 
 **Verify setup:**
@@ -39,8 +39,8 @@ git remote -v
 
 Should output:
 ```
-origin  https://ghp_...TOKEN...@github.com/spencer-n1/Kimi-Claw-WorkSpace.git (fetch)
-origin  https://ghp_...TOKEN...@github.com/spencer-n1/Kimi-Claw-WorkSpace.git (push)
+origin  https://ghp_...TOKEN...@github.com/the user-n1/Kimi-Claw-WorkSpace.git (fetch)
+origin  https://ghp_...TOKEN...@github.com/the user-n1/Kimi-Claw-WorkSpace.git (push)
 ```
 
 ---
@@ -202,7 +202,7 @@ If the token stops working:
 1. Generate new token at https://github.com/settings/tokens
 2. Update remote URL on both systems:
    ```bash
-   git remote set-url origin https://NEW_TOKEN@github.com/spencer-n1/Kimi-Claw-WorkSpace.git
+   git remote set-url origin https://NEW_TOKEN@github.com/the user-n1/Kimi-Claw-WorkSpace.git
    ```
 
 ---

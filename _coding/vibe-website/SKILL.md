@@ -11,8 +11,8 @@ category: coding
 **Purpose:** Build complete, production-ready Next.js client websites directly from research files and design direction.
 
 **Input:**
-1. Full build prompt from Spencer
-2. `scratch/research-[slug].md` (if it does not exist, STOP and ask Spencer: "I don't see a research file at `scratch/research-[slug].md`. Is there one? If so, where is it located?")
+1. Full build prompt from the user
+2. `scratch/research-[slug].md` (if it does not exist, STOP and ask the user: "I don't see a research file at `scratch/research-[slug].md`. Is there one? If so, where is it located?")
 
 **Output:** Complete Next.js project written to `websites/[business-slug]/`
 
@@ -30,9 +30,9 @@ Before writing any code, read these files in order:
 5. `skills/_design/reasoning-engine/pattern-selection.json`
 6. The research file (`scratch/research-[slug].md`)
 
-**Hard stop:** If any of files 1–5 is missing or unreadable, STOP and tell Spencer before proceeding.
+**Hard stop:** If any of files 1–5 is missing or unreadable, STOP and tell the user before proceeding.
 
-**Hard stop:** If the research file does not exist, STOP and ask Spencer: "I don't see a research file at `scratch/research-[slug].md`. Is there one? If so, where is it located?"
+**Hard stop:** If the research file does not exist, STOP and ask the user: "I don't see a research file at `scratch/research-[slug].md`. Is there one? If so, where is it located?"
 
 ---
 
@@ -61,7 +61,7 @@ From the research file, extract:
 - Best 2-3 review quotes with attribution
 - Differentiators and brand vibe
 - Photo URLs or specific shot list from GMB
-- Any personal notes / design direction from Spencer
+- Any personal notes / design direction from the user
 
 ### Step 4: Plan Site Architecture
 
@@ -230,7 +230,7 @@ Before declaring done, verify:
 - [ ] Responsive at mobile breakpoint
 
 ### Step 9: Output Summary
-Tell Spencer:
+Tell the user:
 1. Project location (`websites/[business-slug]/`)
 2. Design system chosen (aesthetic + patterns)
 3. Any missing info that needs to be filled (phone numbers, exact hours, photos)
@@ -340,7 +340,7 @@ export function Hero() {
 
 After building, ask: "Want me to log any feedback on patterns or aesthetic?"
 
-If Spencer gives feedback:
+If the user gives feedback:
 1. Identify the pattern/aesthetic used
 2. Update `skills/_design/library/taste-profile.md`
 3. Note for future builds

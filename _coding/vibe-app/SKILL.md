@@ -11,7 +11,7 @@ category: coding
 **Purpose:** Build complete, functional React applications directly from feature descriptions.
 
 **Input:**
-1. App description / feature requirements from Spencer
+1. App description / feature requirements from the user
 2. Optional: screenshots, Figma links, or Google Stitch exported files
 
 **Output:** Complete React + Vite project written to `Kimi Code Apps/[app-name]/`
@@ -31,16 +31,16 @@ Apply these principles as hard constraints, not suggestions.
 ## Procedural Steps
 
 ### Step 0: Determine App Name and Project Path
-- Extract app name from Spencer's description
+- Extract app name from the user's description
 - Create slug: lowercase, hyphenated (e.g., `call-quest`, `lead-tracker`)
 - Project root: `Kimi Code Apps/[app-name]/`
 
 ### Step 1: Scope Clarification
-Before writing code, confirm with Spencer:
+Before writing code, confirm with the user:
 - **Core features** — What are the 3-5 must-have features?
 - **Data persistence** — localStorage only, backend API, or none?
 - **Authentication** — Needed or public app?
-- **Google Stitch** — Did Spencer generate a UI in Stitch? If yes, request the exported files.
+- **Google Stitch** — Did the user generate a UI in Stitch? If yes, request the exported files.
 - **Target device** — Desktop-first, mobile-first, or responsive?
 
 ### Step 2: Data Modeling (Hard Gate)
@@ -91,7 +91,7 @@ Create `src/lib/design-system.ts` with:
 - Generate all code in one pass.
 
 **For complex apps** (4+ pages, shared state, auth, data relationships):
-- **Foundation Pass:** Write file structure, routing, types, layout shell, hooks, and empty page shells. Stop here if Spencer wants verification.
+- **Foundation Pass:** Write file structure, routing, types, layout shell, hooks, and empty page shells. Stop here if the user wants verification.
 - **UI Pass:** Fill in components, pages, and visual polish one route at a time.
 
 ### Step 6: Generate Code
@@ -164,7 +164,7 @@ Write these files into `Kimi Code Apps/[app-name]/`:
 - Known gaps / TODOs
 
 ### Step 7: Stitch Integration (If Applicable)
-If Spencer provides Stitch exports:
+If the user provides Stitch exports:
 1. Read the exported HTML/CSS files
 2. Extract the visual structure and class names
 3. Convert static HTML into React components with state/props
@@ -174,7 +174,7 @@ If Spencer provides Stitch exports:
 
 ### Step 8: Validation Checklist
 Before declaring done, verify:
-- [ ] Every feature Spencer described has a corresponding component/page
+- [ ] Every feature the user described has a corresponding component/page
 - [ ] Data flow is traceable (props → state → UI → event → state update)
 - [ ] No hardcoded hex colors in TSX/TS files — all use DS tokens
 - [ ] TypeScript has zero `any` types for core entities
@@ -187,7 +187,7 @@ Before declaring done, verify:
 - [ ] No component fetches data that should be passed as props
 
 ### Step 9: Output Summary
-Tell Spencer:
+Tell the user:
 1. Project location (`Kimi Code Apps/[app-name]/`)
 2. Tech stack and data persistence approach
 3. How to run it: `npm install && npm run dev`
@@ -226,7 +226,7 @@ If it's one-off, define it inline in the page.
 Use outline/straight icons only. No emoji icons.
 
 ### Rule 8: Surgical Edits Only
-When Spencer requests a fix:
+When the user requests a fix:
 1. Name the exact problem
 2. Identify the exact file and line range
 3. Make the minimal change
@@ -297,7 +297,7 @@ export function Dashboard() {
 - 6+ pages
 - Intricate logic
 - Data relationships
-- **Output:** Foundation Pass first, pause for verification if Spencer wants it, then UI Pass one route at a time
+- **Output:** Foundation Pass first, pause for verification if the user wants it, then UI Pass one route at a time
 
 ---
 
@@ -305,7 +305,7 @@ export function Dashboard() {
 
 After building, ask: "Any tweaks to the data model or component structure?"
 
-If Spencer gives feedback:
+If the user gives feedback:
 1. Identify the exact file(s) affected
 2. Make surgical edits — minimal change, exact line range
 3. Note patterns that worked for future app builds

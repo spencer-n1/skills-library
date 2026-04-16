@@ -92,5 +92,5 @@ Theme: All-white / light clean aesthetic
 - Requires EXCELLENT imagery — no room for error with white backgrounds
 - Every element must be refined — white shows imperfections
 - Contrast is still important — don't go too light on text
-- This is Spencer's "white hero with rest of white website" pattern
+- This is the user's "white hero with rest of white website" pattern
 - Feels expensive and curated when done right

@@ -76,7 +76,7 @@ Output the JSON recommendation to the calling skill.
 
 ## Feedback Loop
 
-When Spencer gives feedback on a build:
+When the user gives feedback on a build:
 1. Identify which pattern/aesthetic was used
 2. Update `library/taste-profile.md`
 3. Future reasoning queries will incorporate the updated preference

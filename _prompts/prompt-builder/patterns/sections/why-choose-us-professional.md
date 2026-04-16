@@ -76,4 +76,4 @@ Why Choose Us Section: Professional split layout
 ## Notes
 - Image quality critical — professional photography, not stock-looking
 - Points should be REAL differentiators, not generic claims
-- ✦ symbol is Spencer's preference for inline trust markers
+- ✦ symbol is the user's preference for inline trust markers

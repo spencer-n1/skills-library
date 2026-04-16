@@ -156,4 +156,4 @@ When building for rehab/healthcare:
 ---
 
 *Last updated: March 17, 2026*
-*Note: This is for Spencer's dad's friend's project*
+*Note: This is for the user's dad's friend's project*

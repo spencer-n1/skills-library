@@ -20,7 +20,7 @@ agent_type: main
 
 ## Activation Triggers
 
-Use this skill when Spencer says things like:
+Use this skill when the user says things like:
 - "Change the hero headline on [site]"
 - "Add a new section to [site]"
 - "Fix the card layout on [app]"
@@ -38,7 +38,7 @@ Before touching any file, convert the user's request into a **discrete, numbered
 
 **Protocol:**
 1. Parse the user's input. Break it into individual, specific changes.
-2. Present the list to Spencer exactly like this:
+2. Present the list to the user exactly like this:
    ```
    Here's what I understood you want to change:
 
@@ -48,8 +48,8 @@ Before touching any file, convert the user's request into a **discrete, numbered
 
    Does this look right? (yes / no / add or remove items)
    ```
-3. **WAIT for explicit confirmation.** Do not proceed until Spencer says yes or approves the list.
-4. If Spencer says no or adds items, revise the list and confirm again.
+3. **WAIT for explicit confirmation.** Do not proceed until the user says yes or approves the list.
+4. If the user says no or adds items, revise the list and confirm again.
 5. Only after confirmation, route each item to the correct Edit Tier and begin execution.
 
 **Why this matters:** Prevents misinterpretation, scope creep, and wasted edits.
@@ -149,7 +149,7 @@ Route every request to the correct tier before starting work.
 **Rules:**
 - Never start a structural edit without mapping the blast radius first
 - Never rename something in one file without updating every reference
-- If a type change breaks more than 5 files, pause and confirm with Spencer before proceeding
+- If a type change breaks more than 5 files, pause and confirm with the user before proceeding
 - Design system token changes cascade everywhere — treat them as Tier 3 always
 
 ---
@@ -199,7 +199,7 @@ New code must be indistinguishable from existing code in style and convention.
 ## What Never to Do
 
 - **Never rewrite a full file to make a small change.** Read it, find the node, change only that.
-- **Never introduce new dependencies** without asking Spencer first.
+- **Never introduce new dependencies** without asking the user first.
 - **Never change design tokens** as a side effect of another edit. Token changes are their own Tier 3 edit.
 - **Never skip reading the file first.** Memory is not reliable. The file is.
 - **Never silently expand scope.** If fixing the requested thing reveals another problem, report it — don't fix it unasked.
@@ -221,7 +221,7 @@ Files created:
 
 Done. [One sentence summary.]
 
-[Optional: flag anything Spencer should know — e.g. "noticed the mobile nav has an unrelated bug, want me to fix it?"]
+[Optional: flag anything the user should know — e.g. "noticed the mobile nav has an unrelated bug, want me to fix it?"]
 ```
 
-Keep it short. Spencer reviews visually. Don't explain every line.
+Keep it short. the user reviews visually. Don't explain every line.

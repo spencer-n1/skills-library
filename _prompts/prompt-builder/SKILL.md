@@ -218,7 +218,7 @@ Every site must have:
 
 ## Feedback Integration
 
-After building, ask Spencer: "Want me to log any feedback on patterns or aesthetic?"
+After building, ask the user: "Want me to log any feedback on patterns or aesthetic?"
 
 If he gives feedback:
 1. Identify the pattern/aesthetic used

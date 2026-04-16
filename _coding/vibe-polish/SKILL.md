@@ -13,7 +13,7 @@ category: coding
 **Input:**
 1. Path to built project (`websites/[slug]/` or `Kimi Code Apps/[slug]/`)
 2. Optional live URL for visual comparison
-3. Optional notes from Spencer on specific concerns
+3. Optional notes from the user on specific concerns
 
 **Output:** Same project, polished. No new directory.
 
@@ -37,7 +37,7 @@ Before auditing or polishing anything, convert the user's request into a **discr
 
 **Protocol:**
 1. Parse the user's input. Break it into individual, specific changes or concerns.
-2. Present the list to Spencer exactly like this:
+2. Present the list to the user exactly like this:
    ```
    Here's what I understood you want polished:
 
@@ -47,8 +47,8 @@ Before auditing or polishing anything, convert the user's request into a **discr
 
    Does this look right? (yes / no / add or remove items)
    ```
-3. **WAIT for explicit confirmation.** Do not proceed until Spencer says yes or approves the list.
-4. If Spencer says no or adds items, revise the list and confirm again.
+3. **WAIT for explicit confirmation.** Do not proceed until the user says yes or approves the list.
+4. If the user says no or adds items, revise the list and confirm again.
 5. Only after confirmation, begin Phase 1 (Critical Fixes Audit).
 
 **Why this matters:** Prevents misinterpretation, scope creep, and wasted edits.
@@ -259,7 +259,7 @@ Before declaring done:
 
 ## Output Format
 
-Report to Spencer:
+Report to the user:
 
 ```
 Polish complete for [project-name].
@@ -291,4 +291,4 @@ If anything was too broken to fix surgically, flag it:
 - **Never fix one thing by rewriting an entire page**
 - **Never introduce new dependencies** for simple CSS animations
 - **Never skip the critical fixes** to get to the fun animation stuff
-- **Never polish a broken foundation** — if the core structure is wrong, stop and tell Spencer
+- **Never polish a broken foundation** — if the core structure is wrong, stop and tell the user

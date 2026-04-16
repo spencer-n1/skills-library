@@ -21,7 +21,7 @@ category: coding
 
 ## Pre-Flight: Gather Inputs
 
-Spencer will typically provide all three. If any are missing, proceed with what you have using this priority:
+the user will typically provide all three. If any are missing, proceed with what you have using this priority:
 
 **Source code > Live URL screenshots > Original prompt**
 
@@ -149,10 +149,10 @@ Append visual findings:
 Read the original prompt for:
 - Business type and industry
 - Brand vibe / tone
-- Specific Spencer requests that may not be in the code
+- Specific the user requests that may not be in the code
 - Design direction or references
 
-If the prompt conflicts with the source code, **ask Spencer which wins** before proceeding.
+If the prompt conflicts with the source code, **ask the user which wins** before proceeding.
 
 ---
 
@@ -164,7 +164,7 @@ If the prompt conflicts with the source code, **ask Spencer which wins** before 
 |----------------|-----------|
 | Next.js (App Router) | `vibe-website` |
 | React + Vite | `vibe-app` |
-| Unclear / mixed | Ask Spencer |
+| Unclear / mixed | Ask the user |
 
 ### 4.2 Lock Constraints Before Writing Code
 
@@ -216,7 +216,7 @@ Before declaring done, verify:
 
 ## Phase 6: Output Summary
 
-Tell Spencer:
+Tell the user:
 1. Project location
 2. Builder skill used
 3. What was replicated from source vs interpreted from screenshots
@@ -235,7 +235,7 @@ If the source has 8 pages, the rebuild has 8 pages. No shortcuts.
 If the live site has a blurred nav on scroll but the code doesn't show it clearly, replicate the visual behavior.
 
 ### Rule 3: Prompt Wins on Intent
-If Spencer explicitly asked for something in the prompt that got lost in the source code, ask which to follow — but default to honoring the original request.
+If the user explicitly asked for something in the prompt that got lost in the source code, ask which to follow — but default to honoring the original request.
 
 ### Rule 4: Clean Rebuild Only
 Base44 exports are noisy. Extract the intent, then rewrite it cleanly. Do not copy generated junk.
