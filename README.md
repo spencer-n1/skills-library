@@ -8,7 +8,7 @@ This repo is the **single source of truth** for every skill in Spencer's AI agen
 
 ## How It Works (The Orchestrator)
 
-Every request Spencer makes is matched to a skill **before** any work happens.
+Every request made is matched to a skill **before** any work happens.
 
 1. **Parse** the request → detect intent and keywords
 2. **Query** `registry/skill-index.json` → find the best match
