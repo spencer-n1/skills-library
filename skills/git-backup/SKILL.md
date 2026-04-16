@@ -29,7 +29,7 @@ keywords: ["push to git", "pull from git", "git status", "backup", "sync"]
 
 **Remote URL:**
 ```
-https://<YOUR_GITHUB_TOKEN>@github.com/spencer-n1/Kimi-Claw-WorkSpace.git
+https://ghp_<YOUR_TOKEN_HERE>@github.com/spencer-n1/Kimi-Claw-WorkSpace.git
 ```
 
 **Verify setup:**
@@ -39,8 +39,8 @@ git remote -v
 
 Should output:
 ```
-origin  https://<YOUR_GITHUB_TOKEN>@github.com/spencer-n1/Kimi-Claw-WorkSpace.git (fetch)
-origin  https://<YOUR_GITHUB_TOKEN>@github.com/spencer-n1/Kimi-Claw-WorkSpace.git (push)
+origin  https://ghp_...TOKEN...@github.com/spencer-n1/Kimi-Claw-WorkSpace.git (fetch)
+origin  https://ghp_...TOKEN...@github.com/spencer-n1/Kimi-Claw-WorkSpace.git (push)
 ```
 
 ---

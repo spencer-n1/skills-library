@@ -1,2 +1,0 @@
-[    1273ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://solidstatestudio.net/app-logs/69b27d71e3242dc78a08dd23/log-user-in-app/home:0
-[    1499ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://solidstatestudio.net/api/apps/69b27d71e3242dc78a08dd23/entities/User/me:0

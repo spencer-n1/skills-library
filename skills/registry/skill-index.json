@@ -207,6 +207,14 @@
       "type": "procedural"
     },
     {
+      "name": "vibe-admin-panel",
+      "description": "Add a password-protected admin panel to vibe-website or vibe-app projects. Clients manage reviews, blog posts, products, team members without touching code.",
+      "path": "skills/_coding/vibe-admin-panel/SKILL.md",
+      "keywords": ["admin panel", "cms", "client editing", "admin", "dashboard", "content management"],
+      "category": "coding",
+      "type": "procedural"
+    },
+    {
       "name": "vibe-replicate",
       "description": "Replicate an existing vibe-coded website or app from scratch using source code, live URL screenshots, and the original prompt.",
       "path": "skills/_coding/vibe-replicate/SKILL.md",
