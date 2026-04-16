@@ -4,8 +4,6 @@
 
 This repo is the **single source of truth** for every skill in Spencer's AI agency stack. Each skill is a self-contained capability with a `SKILL.md` file that defines inputs, outputs, procedures, and failure modes.
 
-**New agent? Start here.**
-
 ---
 
 ## How It Works (The Orchestrator)
