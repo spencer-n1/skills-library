@@ -69,13 +69,37 @@ Make precise, surgical changes to existing prompt files. **Only change what Spen
 
 ---
 
+## Step 0: Input Clarification & Confirmation
+
+Before touching any file, convert the user's request into a **discrete, numbered list of changes**.
+
+**Protocol:**
+1. Parse the user's input. Break it into individual, specific edits.
+2. Present the list to Spencer exactly like this:
+   ```
+   Here's what I understood you want changed in [filename]:
+
+   1. [specific change 1]
+   2. [specific change 2]
+   3. [specific change 3]
+
+   Does this look right? (yes / no / add or remove items)
+   ```
+3. **WAIT for explicit confirmation.** Do not proceed until Spencer says yes or approves the list.
+4. If Spencer says no or adds items, revise the list and confirm again.
+5. Only after confirmation, proceed to Step 1 (Read The File).
+
+**Why this matters:** Prevents misinterpretation, scope creep, and accidental rewrites.
+
+---
+
 ## Pre-Edit Safety Gate
 
 **Before ANY edit tool call on a prompt file, you MUST:**
 
 1. Say explicitly: "This is a prompt file. Activating prompt engineering skill."
 2. Read the skill file (this file) completely
-3. Confirm the bullet-point list of changes with Spencer
+3. Complete Step 0 (confirm the numbered list of changes with Spencer)
 4. Only then proceed to edit
 
 **If you catch yourself about to edit without doing steps 1-3:**
@@ -88,8 +112,8 @@ Make precise, surgical changes to existing prompt files. **Only change what Spen
 
 Before touching any files:
 
-1. **Read the complete file** — Use `read` to load the entire file. Don't assume you know it.
-2. **Confirm exact changes** — Get the complete list of what Spencer wants changed.
+1. **Complete Step 0** — Get the numbered list approved
+2. **Read the complete file** — Use `read` to load the entire file. Don't assume you know it.
 3. **Confirm scope** — Ask: "Just to confirm, I should ONLY change [X] and leave everything else exactly as-is?"
 4. **Signal lock-in:** Reply: "Prompt engineering mode locked. Editing `[filename]` — changing only: [list]."
 
@@ -107,31 +131,9 @@ read: file_path
 
 Load the complete file into context. You need to see the exact text you're editing.
 
-### 2. Confirm Exact Changes
+### 2. Clarify Changes (Already Done in Step 0)
 
-Extract the complete list of changes from Spencer's request.
-
-**If he gives you multiple items at once:**
-- List them all in bullet points
-- Ask: "Did I capture all changes correctly?"
-
-**If he gives you one item:**
-- Confirm: "Just to confirm: Change [X] to [Y] — correct?"
-
-### 2.5 Clarify All Changes (NEW STEP)
-
-**BEFORE executing ANY edits**, convert Spencer's request into a bullet-point list of specific changes:
-
-**Format:**
-> **Proposed Changes to `[filename]`:**
-> - [Section]: Change "[old]" → "[new]"
-> - [Section]: Add [description]
-> - [Section]: Remove [description]
-> - [etc.]
-
-**Then wait for confirmation:** "Confirm these changes? (yes/no/modify)"
-
-**DO NOT proceed to Step 3 until Spencer confirms.**
+The numbered list was confirmed before reading. If reading the file reveals that any item is ambiguous or would affect unexpected sections, pause and ask Spencer before editing.
 
 ### 3. Use edit Tool — Surgical Only
 
@@ -392,4 +394,4 @@ After building, confirm ALL of these:
 
 ---
 
-*Skill Version: 3.3 — April 5, 2026 (Added Complex Logic Formatting Guidelines)*
+*Skill Version: 3.4 — April 14, 2026 (Restructured Step 0: Input Clarification & Confirmation)*
