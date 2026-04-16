@@ -32,6 +32,30 @@ Use this skill when Spencer says things like:
 
 ---
 
+## Step 0: Input Clarification & Confirmation
+
+Before touching any file, convert the user's request into a **discrete, numbered list of edits**.
+
+**Protocol:**
+1. Parse the user's input. Break it into individual, specific changes.
+2. Present the list to Spencer exactly like this:
+   ```
+   Here's what I understood you want to change:
+
+   1. [specific edit 1]
+   2. [specific edit 2]
+   3. [specific edit 3]
+
+   Does this look right? (yes / no / add or remove items)
+   ```
+3. **WAIT for explicit confirmation.** Do not proceed until Spencer says yes or approves the list.
+4. If Spencer says no or adds items, revise the list and confirm again.
+5. Only after confirmation, route each item to the correct Edit Tier and begin execution.
+
+**Why this matters:** Prevents misinterpretation, scope creep, and wasted edits.
+
+---
+
 ## Core Philosophy
 
 **Surgical over sweeping.** Touch the minimum files and lines necessary.

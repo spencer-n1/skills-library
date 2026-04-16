@@ -31,6 +31,30 @@ category: coding
 
 ---
 
+## Step 0: Input Clarification & Confirmation
+
+Before auditing or polishing anything, convert the user's request into a **discrete, numbered list of polish items**.
+
+**Protocol:**
+1. Parse the user's input. Break it into individual, specific changes or concerns.
+2. Present the list to Spencer exactly like this:
+   ```
+   Here's what I understood you want polished:
+
+   1. [specific item 1]
+   2. [specific item 2]
+   3. [specific item 3]
+
+   Does this look right? (yes / no / add or remove items)
+   ```
+3. **WAIT for explicit confirmation.** Do not proceed until Spencer says yes or approves the list.
+4. If Spencer says no or adds items, revise the list and confirm again.
+5. Only after confirmation, begin Phase 1 (Critical Fixes Audit).
+
+**Why this matters:** Prevents misinterpretation, scope creep, and wasted edits.
+
+---
+
 ## Polish Tier: "Slight + Purposeful"
 
 This skill operates at a fixed tier between "barely any animation" and "premium wow factor":
